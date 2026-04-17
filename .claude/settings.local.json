@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm --prefix C:/Users/Aziz/Desktop/antikor run build)",
+      "Bash(curl -s -X POST https://api.telegram.org/bot8685597650:AAE1rRnI1I5GkhkB6mrpq2-jfYWywEYXyP8/sendMessage -H 'Content-Type: application/json' -d '{\"chat_id\":\"1187712645\",\"text\":\"Test from Antikor\"}')",
+      "Bash(curl -s \"https://api.telegram.org/bot8685597650:AAE1rRnI1I5GkhkB6mrpq2-jfYWywEYXyP8/getMe\")",
+      "Bash(sed -i \"s/: 'Farg'ona Xim Zashita Antikor — Anti-Corrosion/: \\\\\"Farg'ona Xim Zashita Antikor — Anti-Corrosion/g\" components/JsonLd.tsx)",
+      "Bash(sed -i \"s/'Farg'ona Xim Zashita Antikor'/\\\\\"Farg'ona Xim Zashita Antikor\\\\\"/g\" \"app/[locale]/layout.tsx\")",
+      "Bash(sed -i \"s/'Farg'ona Xim Zashita Antikor — Химзащита Узбекистан'/\\\\\"Farg'ona Xim Zashita Antikor — Химзащита Узбекистан\\\\\"/g\" \"app/[locale]/layout.tsx\")"
+    ]
+  }
+}

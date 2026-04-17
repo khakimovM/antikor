@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "title": "Farg'ona Xim Zashita Antikor — Kimyoviy Himoya va Antikorrozion Ishlar O'zbekiston",
+    "description": "Farg'ona Xim Zashita Antikor MChJ — O'zbekistonda kimyoviy himoya va antikorrozion ishlar bo'yicha №1. Peskostruyka, bo'yoq-lak, futlash, issiqlik izolyatsiyasi. 20+ yil tajriba. Farg'ona NQZ, Kungrad, Navoiazot.",
+    "keywords": "ximzashita, farg'ona xim zashita antikor, fergana xim zashita antikor, antikor, kimyoviy himoya o'zbekiston, antikorrozion himoya o'zbekiston, peskostruyka toshkent, peskostruyka farg'ona, kimyoviy himoya toshkent, kimyoviy himoya farg'ona, bo'yoq-lak ishlari sanoat, futlash ishlari, issiqlik izolyatsiyasi quvurlar, kislotali kimyoviy himoya, korroziyaga qarshi qoplama, sanoat himoyasi o'zbekiston, zangga qarshi himoya"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "projects": "Loyihalar",
+    "contact": "Bog'lanish",
+    "consultation": "Konsultatsiya olish"
+  },
+  "hero": {
+    "badge": "20 yildan ortiq sanoat tajribasi",
+    "title": "Farg'ona Xim Zashita Antikor MCHJ",
+    "subtitle": "Sanoat ob'ektlarini ishonchli himoya qilish",
+    "description": "O'zbekistonda korroziyaga qarshi himoya, kimyoviy himoya, peskostruyka va gidroizolyatsiya sohasida yetakchi kompaniya. Mamlakat etakchi korxonalarida 50 dan ortiq yirik loyihalar amalga oshirilgan.",
+    "cta_primary": "Konsultatsiya olish",
+    "cta_secondary": "Xizmatlarimiz",
+    "stat_years": "yillik tajriba",
+    "stat_projects": "yirik loyiha",
+    "stat_clients": "doimiy mijoz",
+    "stat_years_value": "20+",
+    "stat_projects_value": "50+",
+    "stat_clients_value": "30+"
+  },
+  "services": {
+    "section_title": "Bizning xizmatlarimiz",
+    "section_subtitle": "Yuzani tayyorlashdan maxsus qoplamalar qo'llashgacha — sanoat himoyasining to'liq spektri",
+    "order": "Buyurtma",
+    "expand": "Batafsil",
+    "collapse": "Yig'ish",
+    "items": {
+      "chemical": {
+        "title": "Kimyoviy himoya ishlari",
+        "short": "Uskunalar, idishlar va konstruktsiyalarni agressiv kimyoviy muhitlardan himoya qilish uchun kimyoviy chidamli qoplamalar qo'llash.",
+        "description": "Kimyoviy himoya ishlari — metallik va beton konstruktsiyalar, idishlar, quvurlar va texnologik uskunalarga maxsus kimyoviy chidamli qoplamalar qo'llash bo'yicha kompleks tadbirlar majmuasi. Maqsad — kislotalar, ishqorlar, erituvchilar va neft mahsulotlari ta'siridan uzoq muddatli himoyani ta'minlash.\n\nBiz epoksid, vinil, poliuretan va fenol tarkibidagi qoplamalarni qo'llaymiz. To'liq ish sikli: diagnostika, yuzani tayyorlash, astar va yakunlovchi qatlamlarni qo'llash, adgeziya va qoplama sifatini nazorat qilish. Kafolat muddati — 5 dan 15 yilgacha.",
+        "features": ["Epoksid qoplamalar", "Poliuretan tarkiblar", "Vinil qoplamalar", "Fenol qatronlari"]
+      },
+      "sandblasting": {
+        "title": "Peskostruyka ishlari",
+        "short": "Himoya qoplamalarini qo'llashdan oldin Sa 2.5 / Sa 3 darajasigacha professional abraziv tozalash.",
+        "description": "Peskostruyka ishlari — har qanday himoya qoplamalarini qo'llashdan oldin yuzani tayyorlashning majburiy bosqichi. Yakuniy qoplama sifati va xizmat muddati bevosita abraziv tozalash sifatiga bog'liq.\n\nBiz zamonaviy ko'chma peskostruyka qurilmalaridan va turli abraziv materiallardan foydalanamiz: po'lat granulasi, mis shlaqi, kvarts qum. ISO 8501 bo'yicha Sa 2.5 va Sa 3 darajasini ta'minlaymiz. Har qanday ob'ektlarda ishlash mumkin: rezervuarlar, quvurlar, metallik konstruktsiyalar, sanoat uskunalari.",
+        "features": ["Sa 2.5 / Sa 3 darajasi", "Ko'chma qurilmalar", "Po'lat granulasi, mis shlaqi", "Gidroabraziv tozalash"]
+      },
+      "painting": {
+        "title": "Bo'yoq-lak ishlari",
+        "short": "Metallik va beton konstruktsiyalarni atmosfera korroziyasi, UV nurlanish va mexanik ta'sirlardan himoya qilish uchun sanoat lak-bo'yoq qoplama.",
+        "description": "Bo'yoq-lak ishlari sanoat ob'ektlarida nafaqat dekorativ bezak, balki metallik konstruktsiyalarni atmosfera korroziyasi, ultrabinafsha nurlanish va mexanik ta'sirlardan ishonchli himoya qilishdir.\n\nBiz alkid, epoksid, poliuretan va akril emallar hamda grunt-emallardan foydalanamiz. Havo bosimisiz purkash va cho'tka usulida ishlaymiz. Barcha qoplamalar ob'ekt ekspluatatsiya sharoitlariga muvofiq tanlanadi. Yakuniy nazorat: plyonka qalinligi, adgeziya, rang mosligi.",
+        "features": ["Alkid / epoksid emallar", "Havo bosimisiz purkash", "UV-chidamli tarkiblar", "Plyonka qalinligini nazorat qilish"]
+      },
+      "anticorrosion": {
+        "title": "Korroziyaga qarshi ishlar",
+        "short": "Dunyo brendlarining qoplama tizimlari yordamida metallik konstruktsiyalar va sanoat uskunalarini korroziyadan uzoq muddatli himoya.",
+        "description": "Korroziyaga qarshi ishlar kompaniyamiz faoliyatining asosiy yo'nalishlaridan biri. Korroziya har yili korxonalarga ulkan iqtisodiy zarar keltiradi. O'z vaqtida va professional korroziyaga qarshi himoya uskunalar va konstruktsiyalar xizmat muddatini ko'p marta uzaytiradi.\n\nBiz Jotun, Hempel, International ko'p qatlamli qoplama tizimlarini NACE va ISO 12944 standartlariga muvofiq qo'llaymiz. To'liq sikl: konstruktsiyalarni tekshirish, himoya tizimini ishlab chiqish, peskostruyka, astar va yakunlovchi qatlam, sifat nazorati.",
+        "features": ["Jotun / Hempel / International", "ISO 12944 / NACE", "Ko'p qatlamli tizimlar", "Ijro hujjatlarini rasmiylashtirish"]
+      },
+      "lining": {
+        "title": "Futerovka ishlari",
+        "short": "Idishlar, rezervuarlar va quvurlar ichki yuzalarini kimyoviy chidamli materiallar bilan futerovka qilish.",
+        "description": "Futerovka ishlari — sanoat uskunalarining ichki yuzalarini maxsus kislotabardosh va kimyoviy chidamli materiallar bilan qoplash: parcha plitka (kislotabardosh g'isht, keramika), list polimer materiallar (polipropilen, polietilen, ftoroplast) yoki monolitik qoplamalar.\n\nFuterovka oddiy lak-bo'yoq va korroziyaga qarshi qoplamalar yetarli bo'lmagan joylarda qo'llaniladi: kislota va ishqor saqlash idishlari, kimyoviy moddalar, oshlovchi vannalar, skrubberlar va gaz yo'llarida. Mutaxassislarimiz harorat, konsentratsiya va agressiv muhit turiga qarab optimal futerovka turini tanlaydi.",
+        "features": ["Kislotabardosh g'isht", "Polipropilen / PE / PTFE", "Keramik plitka", "Oshlovchi vannalar va skrubberlar"]
+      },
+      "thermal": {
+        "title": "Issiqlik izolyatsiya ishlari",
+        "short": "Issiqlik yo'qotishlarini kamaytirish va texnologik rejimni saqlash uchun quvurlar, rezervuarlar va uskunalarni sanoat issiqlik izolyatsiyasi.",
+        "description": "Issiqlik izolyatsiya ishlari korxona energiya sarfini kamaytirish, kondensatsiyaning oldini olish, kerakli harorat rejimini saqlash va xodimlarni kuyishdan himoya qilish imkonini beradi.\n\nBiz keng qamrovli issiqlik izolyatsiya materiallaridan foydalanamiz: mineral jun, poliuretan ko'pik, ko'pikli shisha, mikrogovak materiallar. Tashqi quvurlar uchun — alyuminiy qoplamali 'qobiq' tizimlari. Kriogen uskunalar uchun — maxsus past haroratli materiallar. Barcha ishlar SNiP va EN ISO standartlariga muvofiq bajariladi.",
+        "features": ["Mineral jun / PU ko'pik", "Alyuminiy qoplama", "Kriogen izolyatsiya", "EN ISO / SNiP standartlari"]
+      },
+      "acid": {
+        "title": "Kislotadan kimyoviy himoya",
+        "short": "Sulfat, xlorid, nitrat, fosfor kislotalari va ularning aralashmalaridan uskunalar va konstruktsiyalarni maxsus himoya qilish.",
+        "description": "Kislotadan kimyoviy himoya ishlari — chuqur kimyo va qoplama texnologiyasi bilimlarini talab qiladigan tor ixtisoslashgan yo'nalish. Kislotalar metalllar va betonni boshqa agressiv muhitlarga nisbatan ancha tezroq yo'q qiladi, shuning uchun material va ish sifatiga qo'yiladigan talablar ayniqsa yuqori.\n\nBiz kislotabardosh epoksid va fenol tarkiblarini, shuningdek futerovka materiallarini qo'llaymiz — kislotabardosh zamaz ustiga kislotabardosh g'isht, polimer list materiallar. Sulfat, xlorid, nitrat, fosfor va organik kislotalar bilan ishlaymiz. Ob'ektlar: kislota idishlari, oshlovchi vannalar, neytralizatorlar, gaz yo'llari, kimyoviy ishlab chiqarish sex pollari.",
+        "features": ["Kislotabardosh epoksidlar", "Kislotabardosh g'isht", "Sulfat / xlorid / nitrat kislotalari", "Oshlovchi vannalar va idishlar"]
+      }
+    }
+  },
+  "about": {
+    "section_title": "Kompaniya haqida",
+    "section_subtitle": "O'zbekiston sanoat ob'ektlarini 20 yildan ortiq ishonchli himoya qilish",
+    "history_title": "Tarix va missiya",
+    "history_p1": "«Farg'ona Xim Zashita Antikor» MChJ — O'zbekistonda sanoat korroziyaga qarshi va kimyoviy himoya sohasida etakchi korxona. 20 yildan ortiq ish davomida biz neft-tozalash zavodlari, kimyo korxonalari va energetika majmualarini o'z ichiga olgan mamlakatning eng yirik sanoat ob'ektlarida murakkab loyihalarni amalga oshirishda bebaho tajriba to'pladik.",
+    "history_p2": "Jamoamiz — xalqaro dasturlarga ko'ra o'qitilgan va sertifikatlangan yuqori malakali mutaxassislar. Biz faqat etakchi jahon ishlab chiqaruvchilarning tasdiqlangan materiallarini va zamonaviy texnologik uskunalardan foydalanamiz. Har bir loyiha biz uchun ishonchli va professional hamkor sifatida obro'imizni tasdiqlash imkoniyatidir.",
+    "history_p3": "Biz ham davlat korxonalari, ham xususiy biznes bilan ishlaymiz, har bir buyurtmachi uchun individual yechimlar taklif etamiz. Bizning tamoyilimiz — sifat, ishonchlilik va uzoq muddatli hamkorlik.",
+    "quote": "Bizning yondashuvimiz — bu shunchaki qoplama qo'llash emas. Biz uskunaning butun hayot sikli davomida ko'p marta o'zini qoplaydigan aktivingizni uzoq muddatli himoya qilish strategiyasini ishlab chiqamiz.",
+    "quote_clients": "Farg'ona NQZ · Kungrad Soda · Navoiazot · Muborak GQZ",
+    "why_title": "Nima uchun bizni tanlaydilar",
+    "why_items": [
+      {"title": "Tajriba va ekspertiza", "text": "O'zbekistonning eng yirik sanoat ob'ektlarida 20+ yillik loyihalar amalga oshirish"},
+      {"title": "Material sifati", "text": "Faqat sertifikatlangan jahon brendlari materiallaridan foydalanamiz: Jotun, Hempel, International"},
+      {"title": "Kompleks yondashuv", "text": "Loyihalashdan kafolatli ob'ektni topshirishgacha to'liq ish sikli"},
+      {"title": "Xalqaro standartlar", "text": "ISO, NACE, GOST va sifatning xalqaro talablariga muvofiq ishlaymiz"}
+    ],
+    "stats": [
+      {"value": "20+", "label": "yillik tajriba"},
+      {"value": "50+", "label": "yirik loyiha"},
+      {"value": "30+", "label": "doimiy mijoz"},
+      {"value": "5", "label": "xizmat yo'nalishi"}
+    ]
+  },
+  "projects": {
+    "section_title": "Bizning loyihalarimiz",
+    "section_subtitle": "O'zbekistonning yetakchi sanoat korxonalarida amalga oshirilgan loyihalar",
+    "callout": "Bu bizning amalga oshirgan loyihalarimizning bir qismi. Sohangizdagi tajribamiz haqida bilish uchun biz bilan bog'laning.",
+    "items": [
+      {
+        "name": "Farg'ona NQZ",
+        "full_name": "«Farg'ona neft qayta ishlash zavodi» AJ",
+        "description": "Neft qayta ishlash zavodining rezervuarlari, quvurlari va metallik konstruktsiyalarini korroziyaga qarshi himoya qilish. Amaliy ishlab chiqarish sharoitida peskostruyka va ko'p qatlamli epoksid qoplamalar qo'llash.",
+        "services": ["Korroziyaga qarshi himoya", "Peskostruyka", "Kimyoviy himoya"],
+        "location": "Farg'ona"
+      },
+      {
+        "name": "Kungrad soda zavodi",
+        "full_name": "«Kungrad soda zavodi» AJ",
+        "description": "Ishqoriy muhit ta'siridan texnologik uskunalarni kompleks kimyoviy himoya qilish. Eskirgan himoya tizimini to'liq almashtirish bilan polimer tarkiblar asosida kimyoviy chidamli qoplamalar qo'llash.",
+        "services": ["Kimyoviy himoya", "Korroziyaga qarshi himoya"],
+        "location": "Nukus / Qoraqalpog'iston"
+      },
+      {
+        "name": "Navoiy azot zavodi",
+        "full_name": "AK «Navoiazot»",
+        "description": "Ammiak ishlab chiqarish quvurlari va uskunalarini issiqlik izolyatsiyasi va korroziyaga qarshi himoya qilish. Yuqori haroratlar va agressiv kimyoviy muhitlar sharoitida ishlar bajarildi.",
+        "services": ["Issiqlik izolyatsiyasi", "Korroziyaga qarshi himoya", "Kimyoviy himoya"],
+        "location": "Navoiy"
+      },
+      {
+        "name": "Muborak GQZ",
+        "full_name": "Muborak gaz qayta ishlash zavodi",
+        "description": "Gaz qayta ishlash korxonasi ob'ektlarini korroziyaga qarshi himoya va gidroizolyatsiya qilish. Metallik konstruktsiyalar va rezervuar parkiga peskostruyka va himoya qoplamalar qo'llash.",
+        "services": ["Korroziyaga qarshi himoya", "Gidroizolyatsiya", "Peskostruyka"],
+        "location": "Muborak, Qashqadaryo viloyati"
+      },
+      {
+        "name": "O'zbekneftegaz",
+        "full_name": "«O'zbekneftegaz» AJ",
+        "description": "Magistral quvurlar va texnologik qurilmalar, shu jumladan neft-gaz infratuzilmasi ob'ektlarini korroziyaga qarshi himoya qilish ishlari.",
+        "services": ["Korroziyaga qarshi himoya", "Peskostruyka"],
+        "location": "O'zbekistonning turli hududlari"
+      },
+      {
+        "name": "Sho'rtanneftegaz",
+        "full_name": "«Sho'rtanneftegaz» MChJ",
+        "description": "Surxondaryo viloyatidagi gaz-neft qazib olish korxonasining uskunalarini kimyoviy himoya va issiqlik izolyatsiyasi bo'yicha kompleks ishlar.",
+        "services": ["Kimyoviy himoya", "Issiqlik izolyatsiyasi"],
+        "location": "Surxondaryo viloyati"
+      }
+    ]
+  },
+  "contact": {
+    "section_title": "Biz bilan bog'laning",
+    "section_subtitle": "Loyihangizni muhokama qilish va optimal yechim taklif qilishga tayyormiz",
+    "address_title": "Manzillar",
+    "address_fergana": "Farg'ona shahri, Farg'ona viloyati, O'zbekiston",
+    "address_tashkent": "Toshkent shahri, O'zbekiston",
+    "phones_title": "Telefonlar",
+    "email_title": "Elektron pochta",
+    "hours_title": "Ish vaqti",
+    "hours_weekdays": "Dush–Jum: 9:00 – 18:00",
+    "hours_saturday": "Shanba: 9:00 – 14:00",
+    "hours_sunday": "Yakshanba: dam olish kuni",
+    "cta_title": "Konsultatsiya kerakmi?",
+    "cta_text": "Ariza qoldiring, mutaxassisimiz 30 daqiqa ichida siz bilan bog'lanadi.",
+    "cta_button": "Ariza qoldirish"
+  },
+  "modal": {
+    "title": "Konsultatsiya olish",
+    "subtitle": "Shaklni to'ldiring, mutaxassisimiz 30 daqiqa ichida siz bilan bog'lanadi",
+    "name_label": "Ismingiz",
+    "name_placeholder": "Ismingizni kiriting",
+    "phone_label": "Telefon raqami",
+    "phone_placeholder": "+998 XX XXX XX XX",
+    "service_label": "Qiziqtirayotgan xizmat",
+    "service_placeholder": "Xizmatni tanlang",
+    "service_options": {
+      "chemical": "Kimyoviy himoya ishlari",
+      "sandblasting": "Peskostruyka ishlari",
+      "painting": "Bo'yoq-lak ishlari",
+      "anticorrosion": "Korroziyaga qarshi ishlar",
+      "lining": "Futerovka ishlari",
+      "thermal": "Issiqlik izolyatsiya ishlari",
+      "acid": "Kislotadan kimyoviy himoya",
+      "other": "Boshqa / Konsultatsiya"
+    },
+    "message_label": "Ob'ekt tavsifi (ixtiyoriy)",
+    "message_placeholder": "Ob'ekt va vazifangizni tavsiflang...",
+    "submit": "Ariza yuborish",
+    "submitting": "Yuborilmoqda...",
+    "success_title": "Ariza qabul qilindi!",
+    "success_text": "Rahmat! Mutaxassisimiz tez orada siz bilan bog'lanadi.",
+    "error_text": "Xatolik yuz berdi. Iltimos, bevosita qo'ng'iroq qiling.",
+    "close": "Yopish",
+    "required": "Majburiy maydon",
+    "phone_invalid": "To'g'ri telefon raqami kiriting",
+    "name_min": "Ism kamida 2 ta belgi bo'lishi kerak"
+  },
+  "footer": {
+    "tagline": "O'zbekistonda sanoat kimyoviy va korroziyaga qarshi himoya",
+    "services_title": "Xizmatlar",
+    "company_title": "Kompaniya",
+    "contact_title": "Aloqa",
+    "about_link": "Kompaniya haqida",
+    "projects_link": "Loyihalar",
+    "copyright": "© {year} «Farg'ona Xim Zashita Antikor» MChJ. Barcha huquqlar himoyalangan.",
+    "privacy": "Maxfiylik siyosati"
+  }
+}
