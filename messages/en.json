@@ -36,44 +36,50 @@
       "chemical": {
         "title": "Chemical Protection Works",
         "short": "Application of chemically resistant coatings to protect equipment, tanks, and structures from aggressive chemical environments.",
-        "description": "Chemical protection works are a comprehensive set of measures for applying specialized chemically resistant coatings to metal and concrete structures, tanks, pipelines, and process equipment. The goal is to ensure long-term protection from acids, alkalis, solvents, and petroleum products.\n\nWe apply epoxy, vinyl, polyurethane, and phenolic coatings from leading global manufacturers. Full work cycle: diagnostics, surface preparation, primer and finish coat application, adhesion and coating quality control. Warranty period: 5 to 15 years.",
+        "description": "Chemical protection works are a comprehensive set of measures for applying specialized chemically resistant coatings to metal and concrete structures, tanks, pipelines, and process equipment. The goal is to ensure long-term protection from acids, alkalis, solvents, and petroleum products.\n\nWe use only high-quality certified materials from leading global manufacturers. Full work cycle: diagnostics, surface preparation, primer and finish coat application, coating quality control. Warranty period: 5 to 15 years.",
         "features": ["Epoxy coatings", "Polyurethane formulations", "Phenolic resins", "Adhesion testing"]
       },
       "sandblasting": {
         "title": "Sandblasting Works",
         "short": "Professional abrasive blasting to Sa 2.5 / Sa 3 grade before applying any protective coating.",
-        "description": "Sandblasting works are a mandatory surface preparation stage before applying any protective coating. The quality and lifespan of the final coating depends directly on the quality of the abrasive cleaning.\n\nWe use modern mobile sandblasting units and various abrasive materials: steel shot, copper slag, quartz sand. We guarantee Sa 2.5 and Sa 3 cleanliness per ISO 8501. We work on any facility: tanks, pipelines, metal structures, industrial equipment — directly on the customer's site.",
-        "features": ["Sa 2.5 / Sa 3 grade", "Mobile units", "Steel shot, copper slag", "Hydroabrasive cleaning"]
+        "description": "Sandblasting works are a mandatory surface preparation stage before applying any protective coating. The quality and lifespan of the final coating depends directly on the quality of the abrasive cleaning.\n\nWe use modern mobile sandblasting units and only high-quality abrasive materials. We guarantee Sa 2.5 and Sa 3 cleanliness per ISO 8501. We work on any facility: tanks, pipelines, metal structures, industrial equipment — directly on the customer's site.",
+        "features": ["Sa 2.5 / Sa 3 grade", "Mobile units", "Quality abrasive materials", "Hydroabrasive cleaning"]
       },
       "painting": {
         "title": "Paint & Lacquer Works",
         "short": "Application of industrial paint and lacquer coatings for protection and finishing of metal and concrete structures.",
-        "description": "Paint and lacquer works at industrial facilities are not just decorative finishing — they are primarily reliable protection of metal structures from atmospheric corrosion, UV radiation, and mechanical impact.\n\nWe use industrial paint and lacquer materials: alkyd, epoxy, polyurethane, and acrylic enamels and primer-enamels. We work by airless spray and brush application. All coatings are selected based on operating conditions and appearance requirements. Final inspection: film thickness, adhesion, color compliance.",
+        "description": "Paint and lacquer works at industrial facilities are not just decorative finishing — they are primarily reliable protection of metal structures from atmospheric corrosion, UV radiation, and mechanical impact.\n\nWe use only high-quality industrial paint and lacquer materials from leading manufacturers. We work by airless spray and brush application. All coatings are selected based on operating conditions and requirements.",
         "features": ["Alkyd / epoxy enamels", "Airless spray application", "UV-resistant formulations", "Film thickness control"]
       },
       "anticorrosion": {
         "title": "Anti-Corrosion Works",
         "short": "Long-term corrosion protection for metal structures and industrial equipment using world-brand coating systems.",
-        "description": "Anti-corrosion works are one of the key areas of our activity. Corrosion causes enormous economic damage every year. Timely and professional anti-corrosion protection multiplies the service life of equipment and structures.\n\nWe apply multi-layer coating systems by Jotun, Hempel, International in accordance with NACE and ISO 12944 standards. Full cycle: structure inspection, protection system design, sandblasting, primer and finish coat application, quality control with as-built documentation.",
-        "features": ["Jotun / Hempel / International", "ISO 12944 / NACE", "Multi-layer systems", "As-built documentation"]
+        "description": "Anti-corrosion works are one of the key areas of our activity. Corrosion causes enormous economic damage every year. Timely and professional anti-corrosion protection multiplies the service life of equipment and structures.\n\nWe apply only high-quality multi-layer coating systems in accordance with NACE and ISO 12944 standards. Full cycle: structure inspection, protection system design, sandblasting, coating application, quality control with as-built documentation.",
+        "features": ["ISO 12944 / NACE", "Multi-layer systems", "Full work cycle", "As-built documentation"]
       },
       "lining": {
         "title": "Lining Works",
         "short": "Lining of internal surfaces of tanks, vessels, and pipelines with chemically resistant materials to protect against aggressive environments.",
-        "description": "Lining works involve cladding the internal surfaces of industrial equipment with special acid-resistant and chemically resistant materials: piece tile (acid-resistant brick, ceramics), sheet polymers (polypropylene, polyethylene, PTFE), or monolithic coatings.\n\nLining is used where standard paint and anti-corrosion coatings are insufficient — in tanks for storing acids and alkalis, aggressive chemicals, pickling baths, scrubbers, and flue ducts. Our specialists select the optimal lining type based on temperature, concentration, and type of aggressive environment.",
-        "features": ["Acid-resistant brick", "Polypropylene / PE / PTFE", "Ceramic tile", "Pickling baths & scrubbers"]
+        "description": "Lining works involve cladding the internal surfaces of industrial equipment with special acid-resistant and chemically resistant materials.\n\nLining is used where standard paint and anti-corrosion coatings are insufficient — in tanks for storing acids and alkalis, aggressive chemicals, pickling baths, scrubbers, and flue ducts. Our specialists select the optimal lining type based on temperature, concentration, and type of aggressive environment.",
+        "features": ["Acid-resistant brick", "Polymer materials", "Ceramic tile", "Pickling baths & scrubbers"]
       },
       "thermal": {
         "title": "Thermal Insulation Works",
         "short": "Industrial thermal insulation of pipelines, tanks, and equipment to reduce heat loss and maintain process conditions.",
-        "description": "Thermal insulation works reduce enterprise energy consumption, prevent condensation, maintain required temperature conditions, and protect personnel from burns.\n\nWe work with a wide range of thermal insulation materials: mineral wool, polyurethane foam, foam glass, microporous materials. For external pipelines — aluminum-clad shell systems. For cryogenic equipment — special low-temperature materials. All work is performed to SNiP and EN ISO standards with as-built documentation.",
+        "description": "Thermal insulation works reduce enterprise energy consumption, prevent condensation, maintain required temperature conditions, and protect personnel from burns.\n\nWe use only high-quality thermal insulation materials suitable for any operating conditions — both for hot pipelines and cryogenic equipment. All work is performed to SNiP and EN ISO standards with as-built documentation.",
         "features": ["Mineral wool / PU foam", "Aluminum cladding", "Cryogenic insulation", "EN ISO / SNiP standards"]
       },
       "acid": {
         "title": "Acid Chemical Protection",
         "short": "Specialized protection of equipment and structures from sulfuric, hydrochloric, nitric, phosphoric acids and their mixtures.",
-        "description": "Acid chemical protection works are a highly specialized field requiring deep knowledge of chemistry and coating application technology. Acids destroy metals and concrete much faster than other aggressive environments, so material and workmanship requirements are especially high.\n\nWe apply acid-resistant epoxy and phenolic formulations as well as lining materials — acid-resistant brick on acid-resistant mastic, polymer sheet materials. We work with sulfuric, hydrochloric, nitric, phosphoric, and organic acids. Facilities: acid tanks, pickling baths, neutralizers, flue ducts, floors of chemical production shops.",
-        "features": ["Acid-resistant epoxies", "Acid-resistant brick", "Sulfuric / HCl / nitric acids", "Pickling baths & tanks"]
+        "description": "Acid chemical protection works are a highly specialized field requiring deep knowledge of chemistry and coating application technology. Acids destroy metals and concrete much faster than other aggressive environments, so material and workmanship requirements are especially high.\n\nWe use only high-quality acid-resistant coatings and lining materials selected based on the type and concentration of the acid. Facilities: acid tanks, pickling baths, neutralizers, flue ducts, floors of chemical production shops.",
+        "features": ["Acid-resistant coatings", "Acid-resistant brick", "Sulfuric / HCl / nitric acids", "Pickling baths & tanks"]
+      },
+      "waterproofing": {
+        "title": "Waterproofing Works",
+        "short": "Reliable waterproofing of concrete structures, foundations, tanks, and industrial floors against water and aggressive liquids.",
+        "description": "Waterproofing works provide long-term protection of construction and industrial structures against water, groundwater, and aggressive liquids. Applied to tanks, foundations, roofs, industrial building floors, and underground structures.\n\nWe use only high-quality proven materials that ensure reliable watertightness and durability. Full cycle: structural diagnostics, surface preparation, application of protective systems, quality control.",
+        "features": ["Penetrating waterproofing", "Coating compounds", "Injection waterproofing", "Tanks & floors"]
       }
     }
   },
@@ -182,6 +188,7 @@
       "lining": "Lining Works",
       "thermal": "Thermal Insulation Works",
       "acid": "Acid Chemical Protection",
+      "waterproofing": "Waterproofing Works",
       "other": "Other / Consultation"
     },
     "message_label": "Object Description (optional)",

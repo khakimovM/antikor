@@ -11,19 +11,21 @@ import {
   Layers,
   Thermometer,
   TestTube2,
+  Droplets,
   ArrowRight,
   CheckCircle2,
 } from 'lucide-react';
 import { ConsultationModal } from './ConsultationModal';
 
 const SERVICE_ICONS: Record<string, React.ReactNode> = {
-  chemical:     <FlaskConical className="h-7 w-7" />,
-  sandblasting: <Wind className="h-7 w-7" />,
-  painting:     <Paintbrush className="h-7 w-7" />,
-  anticorrosion:<ShieldCheck className="h-7 w-7" />,
-  lining:       <Layers className="h-7 w-7" />,
-  thermal:      <Thermometer className="h-7 w-7" />,
-  acid:         <TestTube2 className="h-7 w-7" />,
+  chemical:      <FlaskConical className="h-7 w-7" />,
+  sandblasting:  <Wind className="h-7 w-7" />,
+  painting:      <Paintbrush className="h-7 w-7" />,
+  anticorrosion: <ShieldCheck className="h-7 w-7" />,
+  lining:        <Layers className="h-7 w-7" />,
+  thermal:       <Thermometer className="h-7 w-7" />,
+  acid:          <TestTube2 className="h-7 w-7" />,
+  waterproofing: <Droplets className="h-7 w-7" />,
 };
 
 const SERVICE_KEYS = [
@@ -34,6 +36,7 @@ const SERVICE_KEYS = [
   'lining',
   'thermal',
   'acid',
+  'waterproofing',
 ] as const;
 
 const containerVariants = {
@@ -160,7 +163,6 @@ export function Services() {
             </p>
           </motion.div>
 
-          {/* 7-card grid: 2 cols on md, 3 cols on lg, last card centered on lg */}
           <motion.div
             variants={containerVariants}
             initial="hidden"

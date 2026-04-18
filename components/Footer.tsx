@@ -17,6 +17,7 @@ const SERVICE_KEYS = [
   'lining',
   'thermal',
   'acid',
+  'waterproofing',
 ] as const;
 
 export function Footer() {
