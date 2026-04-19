@@ -12,7 +12,13 @@
       "Bash(sed -i \"s/'Farg'ona Xim Zashita Antikor — Химзащита Узбекистан'/\\\\\"Farg'ona Xim Zashita Antikor — Химзащита Узбекистан\\\\\"/g\" \"app/[locale]/layout.tsx\")",
       "Bash(sed -i 's/  TestTube2,\\\\r/  TestTube2,\\\\r\\\\n  Droplets,\\\\r/' components/Services.tsx)",
       "Bash(sed -i 's/  acid:         <TestTube2 className=\"h-7 w-7\" \\\\/>,\\\\r/  acid:         <TestTube2 className=\"h-7 w-7\" \\\\/>,\\\\r\\\\n  waterproofing: <Droplets className=\"h-7 w-7\" \\\\/>,\\\\r/' components/Services.tsx)",
-      "Bash(sed -i \"s/  'acid',\\\\r$/  'acid',\\\\r\\\\n  'waterproofing',\\\\r/\" components/Services.tsx)"
+      "Bash(sed -i \"s/  'acid',\\\\r$/  'acid',\\\\r\\\\n  'waterproofing',\\\\r/\" components/Services.tsx)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(node -e \"const d=require\\('./messages/ru.json'\\); console.log\\(Object.keys\\(d\\)\\)\")",
+      "Bash(node -e \"const d=require\\('./messages/ru.json'\\); console.log\\(JSON.stringify\\(d.projects, null, 2\\)\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const p=require\\('./node_modules/swiper/package.json'\\); console.log\\(JSON.stringify\\(Object.keys\\(p.exports||{}\\).slice\\(0,20\\), null, 2\\)\\)\")",
+      "Bash(node -e \"const p=require\\('./node_modules/swiper/package.json'\\); console.log\\(JSON.stringify\\(Object.keys\\(p.exports||{}\\), null, 2\\)\\)\")"
     ]
   }
 }

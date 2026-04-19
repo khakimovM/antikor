@@ -37,49 +37,89 @@
         "title": "Chemical Protection Works",
         "short": "Application of chemically resistant coatings to protect equipment, tanks, and structures from aggressive chemical environments.",
         "description": "Chemical protection works are a comprehensive set of measures for applying specialized chemically resistant coatings to metal and concrete structures, tanks, pipelines, and process equipment. The goal is to ensure long-term protection from acids, alkalis, solvents, and petroleum products.\n\nWe use only high-quality certified materials from leading global manufacturers. Full work cycle: diagnostics, surface preparation, primer and finish coat application, coating quality control. Warranty period: 5 to 15 years.",
-        "features": ["Epoxy coatings", "Polyurethane formulations", "Phenolic resins", "Adhesion testing"]
+        "features": [
+          "Epoxy coatings",
+          "Polyurethane formulations",
+          "Phenolic resins",
+          "Adhesion testing"
+        ]
       },
       "sandblasting": {
         "title": "Sandblasting Works",
         "short": "Professional abrasive blasting to Sa 2.5 / Sa 3 grade before applying any protective coating.",
         "description": "Sandblasting works are a mandatory surface preparation stage before applying any protective coating. The quality and lifespan of the final coating depends directly on the quality of the abrasive cleaning.\n\nWe use modern mobile sandblasting units and only high-quality abrasive materials. We guarantee Sa 2.5 and Sa 3 cleanliness per ISO 8501. We work on any facility: tanks, pipelines, metal structures, industrial equipment — directly on the customer's site.",
-        "features": ["Sa 2.5 / Sa 3 grade", "Mobile units", "Quality abrasive materials", "Hydroabrasive cleaning"]
+        "features": [
+          "Sa 2.5 / Sa 3 grade",
+          "Mobile units",
+          "Quality abrasive materials",
+          "Hydroabrasive cleaning"
+        ]
       },
       "painting": {
         "title": "Paint & Lacquer Works",
         "short": "Application of industrial paint and lacquer coatings for protection and finishing of metal and concrete structures.",
         "description": "Paint and lacquer works at industrial facilities are not just decorative finishing — they are primarily reliable protection of metal structures from atmospheric corrosion, UV radiation, and mechanical impact.\n\nWe use only high-quality industrial paint and lacquer materials from leading manufacturers. We work by airless spray and brush application. All coatings are selected based on operating conditions and requirements.",
-        "features": ["Alkyd / epoxy enamels", "Airless spray application", "UV-resistant formulations", "Film thickness control"]
+        "features": [
+          "Alkyd / epoxy enamels",
+          "Airless spray application",
+          "UV-resistant formulations",
+          "Film thickness control"
+        ]
       },
       "anticorrosion": {
         "title": "Anti-Corrosion Works",
         "short": "Long-term corrosion protection for metal structures and industrial equipment using world-brand coating systems.",
         "description": "Anti-corrosion works are one of the key areas of our activity. Corrosion causes enormous economic damage every year. Timely and professional anti-corrosion protection multiplies the service life of equipment and structures.\n\nWe apply only high-quality multi-layer coating systems in accordance with NACE and ISO 12944 standards. Full cycle: structure inspection, protection system design, sandblasting, coating application, quality control with as-built documentation.",
-        "features": ["ISO 12944 / NACE", "Multi-layer systems", "Full work cycle", "As-built documentation"]
+        "features": [
+          "ISO 12944 / NACE",
+          "Multi-layer systems",
+          "Full work cycle",
+          "As-built documentation"
+        ]
       },
       "lining": {
         "title": "Lining Works",
         "short": "Lining of internal surfaces of tanks, vessels, and pipelines with chemically resistant materials to protect against aggressive environments.",
         "description": "Lining works involve cladding the internal surfaces of industrial equipment with special acid-resistant and chemically resistant materials.\n\nLining is used where standard paint and anti-corrosion coatings are insufficient — in tanks for storing acids and alkalis, aggressive chemicals, pickling baths, scrubbers, and flue ducts. Our specialists select the optimal lining type based on temperature, concentration, and type of aggressive environment.",
-        "features": ["Acid-resistant brick", "Polymer materials", "Ceramic tile", "Pickling baths & scrubbers"]
+        "features": [
+          "Acid-resistant brick",
+          "Polymer materials",
+          "Ceramic tile",
+          "Pickling baths & scrubbers"
+        ]
       },
       "thermal": {
         "title": "Thermal Insulation Works",
         "short": "Industrial thermal insulation of pipelines, tanks, and equipment to reduce heat loss and maintain process conditions.",
         "description": "Thermal insulation works reduce enterprise energy consumption, prevent condensation, maintain required temperature conditions, and protect personnel from burns.\n\nWe use only high-quality thermal insulation materials suitable for any operating conditions — both for hot pipelines and cryogenic equipment. All work is performed to SNiP and EN ISO standards with as-built documentation.",
-        "features": ["Mineral wool / PU foam", "Aluminum cladding", "Cryogenic insulation", "EN ISO / SNiP standards"]
+        "features": [
+          "Mineral wool / PU foam",
+          "Aluminum cladding",
+          "Cryogenic insulation",
+          "EN ISO / SNiP standards"
+        ]
       },
       "acid": {
         "title": "Acid Chemical Protection",
         "short": "Specialized protection of equipment and structures from sulfuric, hydrochloric, nitric, phosphoric acids and their mixtures.",
         "description": "Acid chemical protection works are a highly specialized field requiring deep knowledge of chemistry and coating application technology. Acids destroy metals and concrete much faster than other aggressive environments, so material and workmanship requirements are especially high.\n\nWe use only high-quality acid-resistant coatings and lining materials selected based on the type and concentration of the acid. Facilities: acid tanks, pickling baths, neutralizers, flue ducts, floors of chemical production shops.",
-        "features": ["Acid-resistant coatings", "Acid-resistant brick", "Sulfuric / HCl / nitric acids", "Pickling baths & tanks"]
+        "features": [
+          "Acid-resistant coatings",
+          "Acid-resistant brick",
+          "Sulfuric / HCl / nitric acids",
+          "Pickling baths & tanks"
+        ]
       },
       "waterproofing": {
         "title": "Waterproofing Works",
         "short": "Reliable waterproofing of concrete structures, foundations, tanks, and industrial floors against water and aggressive liquids.",
         "description": "Waterproofing works provide long-term protection of construction and industrial structures against water, groundwater, and aggressive liquids. Applied to tanks, foundations, roofs, industrial building floors, and underground structures.\n\nWe use only high-quality proven materials that ensure reliable watertightness and durability. Full cycle: structural diagnostics, surface preparation, application of protective systems, quality control.",
-        "features": ["Penetrating waterproofing", "Coating compounds", "Injection waterproofing", "Tanks & floors"]
+        "features": [
+          "Penetrating waterproofing",
+          "Coating compounds",
+          "Injection waterproofing",
+          "Tanks & floors"
+        ]
       }
     }
   },
@@ -94,16 +134,40 @@
     "quote_clients": "Fergana Oil Refinery · Kungrad Soda · Navoiazot · Mubarek GPZ",
     "why_title": "Why Choose Us",
     "why_items": [
-      {"title": "Experience & Expertise", "text": "20+ years of project implementation at Uzbekistan's largest industrial facilities"},
-      {"title": "Material Quality", "text": "We use only certified global brand materials: Jotun, Hempel, International"},
-      {"title": "Comprehensive Approach", "text": "Full work cycle from design to facility handover with warranty"},
-      {"title": "International Standards", "text": "We work to ISO, NACE, GOST, and international quality requirements"}
+      {
+        "title": "Experience & Expertise",
+        "text": "20+ years of project implementation at Uzbekistan's largest industrial facilities"
+      },
+      {
+        "title": "Material Quality",
+        "text": "We use only certified global brand materials: Jotun, Hempel, International"
+      },
+      {
+        "title": "Comprehensive Approach",
+        "text": "Full work cycle from design to facility handover with warranty"
+      },
+      {
+        "title": "International Standards",
+        "text": "We work to ISO, NACE, GOST, and international quality requirements"
+      }
     ],
     "stats": [
-      {"value": "20+", "label": "years in the market"},
-      {"value": "50+", "label": "major projects"},
-      {"value": "30+", "label": "regular clients"},
-      {"value": "5", "label": "service directions"}
+      {
+        "value": "20+",
+        "label": "years in the market"
+      },
+      {
+        "value": "50+",
+        "label": "major projects"
+      },
+      {
+        "value": "30+",
+        "label": "regular clients"
+      },
+      {
+        "value": "5",
+        "label": "service directions"
+      }
     ]
   },
   "projects": {
@@ -115,42 +179,63 @@
         "name": "Fergana Oil Refinery",
         "full_name": "Fergana Oil Refinery JSC",
         "description": "Anti-corrosion protection of tanks, pipelines, and metal structures. Sandblasting and multi-layer epoxy coating application under active production conditions.",
-        "services": ["Anti-corrosion protection", "Sandblasting", "Chemical protection"],
+        "services": [
+          "Anti-corrosion protection",
+          "Sandblasting",
+          "Chemical protection"
+        ],
         "location": "Fergana"
       },
       {
         "name": "Kungrad Soda Plant",
         "full_name": "Kungrad Soda Plant JSC",
         "description": "Comprehensive chemical protection of process equipment from alkaline environments. Application of chemically resistant coatings with complete replacement of the outdated protection system.",
-        "services": ["Chemical protection", "Anti-corrosion protection"],
+        "services": [
+          "Chemical protection",
+          "Anti-corrosion protection"
+        ],
         "location": "Nukus / Karakalpakstan"
       },
       {
         "name": "Navoi Nitrogen Plant",
         "full_name": "Navoiazot JV",
         "description": "Thermal insulation and anti-corrosion protection of ammonia production pipelines and equipment. Work performed under high temperature and aggressive chemical environment conditions.",
-        "services": ["Thermal insulation", "Anti-corrosion protection", "Chemical protection"],
+        "services": [
+          "Thermal insulation",
+          "Anti-corrosion protection",
+          "Chemical protection"
+        ],
         "location": "Navoi"
       },
       {
         "name": "Mubarek Gas Processing Plant",
         "full_name": "Mubarek Gas Processing Plant",
         "description": "Anti-corrosion protection and waterproofing of gas processing enterprise facilities. Sandblasting and protective coatings on metal structures and tank farm.",
-        "services": ["Anti-corrosion protection", "Waterproofing", "Sandblasting"],
+        "services": [
+          "Anti-corrosion protection",
+          "Waterproofing",
+          "Sandblasting"
+        ],
         "location": "Mubarek, Kashkadarya Region"
       },
       {
         "name": "Uzbekneftegaz",
         "full_name": "Uzbekneftegaz JSC",
         "description": "Anti-corrosion protection works on oil and gas infrastructure facilities, including main pipelines and process units.",
-        "services": ["Anti-corrosion protection", "Sandblasting"],
+        "services": [
+          "Anti-corrosion protection",
+          "Sandblasting"
+        ],
         "location": "Various regions of Uzbekistan"
       },
       {
         "name": "Shurtanneftegaz",
         "full_name": "Shurtanneftegaz LLC",
         "description": "Comprehensive chemical protection and thermal insulation work for a gas and oil production enterprise in Surkhandarya region.",
-        "services": ["Chemical protection", "Thermal insulation"],
+        "services": [
+          "Chemical protection",
+          "Thermal insulation"
+        ],
         "location": "Surkhandarya Region"
       }
     ]
@@ -212,5 +297,60 @@
     "projects_link": "Projects",
     "copyright": "© {year} Fergana Xim Zashita Antikor LLC. All rights reserved.",
     "privacy": "Privacy Policy"
+  },
+  "gallery": {
+    "section_badge": "Our Works",
+    "section_title": "Photo Gallery",
+    "section_subtitle": "Real projects, real results — see the quality of our work firsthand",
+    "categories": {
+      "all": "All",
+      "anticorrosion": "Anticorrosion",
+      "sandblasting": "Sandblasting",
+      "lining": "Lining"
+    },
+    "images": [
+      {
+        "src": "/images/antikorroziya1.jpg",
+        "title": "Anticorrosion Protection",
+        "category": "anticorrosion",
+        "desc": "Applying anticorrosion coating on metal structures"
+      },
+      {
+        "src": "/images/antikorroziya2.jpg",
+        "title": "Anticorrosion Protection",
+        "category": "anticorrosion",
+        "desc": "Multi-layer anticorrosion treatment of tanks"
+      },
+      {
+        "src": "/images/antikorroziya_do.jpg",
+        "title": "Before Treatment",
+        "category": "anticorrosion",
+        "desc": "Condition of metal structures before anticorrosion treatment"
+      },
+      {
+        "src": "/images/antikorroziya_posle.jpg",
+        "title": "After Treatment",
+        "category": "anticorrosion",
+        "desc": "Result after applying anticorrosion coating"
+      },
+      {
+        "src": "/images/futerovka.jpg",
+        "title": "Lining Works",
+        "category": "lining",
+        "desc": "Chemically resistant lining of industrial equipment"
+      },
+      {
+        "src": "/images/futerovka2.jpg",
+        "title": "Lining Works",
+        "category": "lining",
+        "desc": "Acid-resistant tiles and polymer coatings"
+      },
+      {
+        "src": "/images/peskostruynaya.jpg",
+        "title": "Sandblasting",
+        "category": "sandblasting",
+        "desc": "Surface preparation by sandblasting method"
+      }
+    ]
   }
 }

@@ -68,3 +68,24 @@
   background-color: #1c33b4;
   border-radius: 3px;
 }
+
+/* Swiper gallery custom styles */
+.gallery-swiper {
+  padding-bottom: 44px !important;
+}
+.gallery-swiper .swiper-pagination {
+  bottom: 10px !important;
+}
+.gallery-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #cbd5e1;
+  opacity: 1;
+  transition: all 0.25s;
+}
+.gallery-swiper .swiper-pagination-bullet-active {
+  width: 22px;
+  border-radius: 4px;
+  background: #1c33b4;
+}
+

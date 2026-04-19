@@ -37,49 +37,89 @@
         "title": "Kimyoviy himoya ishlari",
         "short": "Uskunalar, idishlar va konstruktsiyalarni agressiv kimyoviy muhitlardan himoya qilish uchun kimyoviy chidamli qoplamalar qo'llash.",
         "description": "Kimyoviy himoya ishlari — metallik va beton konstruktsiyalar, idishlar, quvurlar va texnologik uskunalarga maxsus kimyoviy chidamli qoplamalar qo'llash bo'yicha kompleks tadbirlar majmuasi. Maqsad — kislotalar, ishqorlar, erituvchilar va neft mahsulotlari ta'siridan uzoq muddatli himoyani ta'minlash.\n\nBiz faqat sifatli sertifikatlangan materiallardan foydalanamiz. To'liq ish sikli: diagnostika, yuzani tayyorlash, astar va yakunlovchi qatlamlarni qo'llash, qoplama sifatini nazorat qilish. Kafolat muddati — 5 dan 15 yilgacha.",
-        "features": ["Epoksid qoplamalar", "Poliuretan tarkiblar", "Vinil qoplamalar", "Fenol qatronlari"]
+        "features": [
+          "Epoksid qoplamalar",
+          "Poliuretan tarkiblar",
+          "Vinil qoplamalar",
+          "Fenol qatronlari"
+        ]
       },
       "sandblasting": {
         "title": "Peskostruyka ishlari",
         "short": "Himoya qoplamalarini qo'llashdan oldin Sa 2.5 / Sa 3 darajasigacha professional abraziv tozalash.",
         "description": "Peskostruyka ishlari — har qanday himoya qoplamalarini qo'llashdan oldin yuzani tayyorlashning majburiy bosqichi. Yakuniy qoplama sifati va xizmat muddati bevosita abraziv tozalash sifatiga bog'liq.\n\nBiz zamonaviy ko'chma peskostruyka qurilmalaridan va faqat sifatli abraziv materiallardan foydalanamiz. ISO 8501 bo'yicha Sa 2.5 va Sa 3 darajasini ta'minlaymiz. Har qanday ob'ektlarda ishlash mumkin: rezervuarlar, quvurlar, metallik konstruktsiyalar, sanoat uskunalari.",
-        "features": ["Sa 2.5 / Sa 3 darajasi", "Ko'chma qurilmalar", "Sifatli abraziv materiallar", "Gidroabraziv tozalash"]
+        "features": [
+          "Sa 2.5 / Sa 3 darajasi",
+          "Ko'chma qurilmalar",
+          "Sifatli abraziv materiallar",
+          "Gidroabraziv tozalash"
+        ]
       },
       "painting": {
         "title": "Bo'yoq-lak ishlari",
         "short": "Metallik va beton konstruktsiyalarni atmosfera korroziyasi, UV nurlanish va mexanik ta'sirlardan himoya qilish uchun sanoat lak-bo'yoq qoplama.",
         "description": "Bo'yoq-lak ishlari sanoat ob'ektlarida nafaqat dekorativ bezak, balki metallik konstruktsiyalarni atmosfera korroziyasi, ultrabinafsha nurlanish va mexanik ta'sirlardan ishonchli himoya qilishdir.\n\nBiz faqat yetakchi ishlab chiqaruvchilarning sifatli sanoat bo'yoq-lak materiallaridan foydalanamiz. Havo bosimisiz purkash va cho'tka usulida ishlaymiz. Barcha qoplamalar ob'ekt ekspluatatsiya sharoitlariga muvofiq tanlanadi.",
-        "features": ["Alkid / epoksid emallar", "Havo bosimisiz purkash", "UV-chidamli tarkiblar", "Plyonka qalinligini nazorat qilish"]
+        "features": [
+          "Alkid / epoksid emallar",
+          "Havo bosimisiz purkash",
+          "UV-chidamli tarkiblar",
+          "Plyonka qalinligini nazorat qilish"
+        ]
       },
       "anticorrosion": {
         "title": "Korroziyaga qarshi ishlar",
         "short": "Dunyo brendlarining qoplama tizimlari yordamida metallik konstruktsiyalar va sanoat uskunalarini korroziyadan uzoq muddatli himoya.",
         "description": "Korroziyaga qarshi ishlar kompaniyamiz faoliyatining asosiy yo'nalishlaridan biri. Korroziya har yili korxonalarga ulkan iqtisodiy zarar keltiradi. O'z vaqtida va professional korroziyaga qarshi himoya uskunalar va konstruktsiyalar xizmat muddatini ko'p marta uzaytiradi.\n\nBiz faqat sifatli ko'p qatlamli qoplama tizimlarini NACE va ISO 12944 standartlariga muvofiq qo'llaymiz. To'liq sikl: konstruktsiyalarni tekshirish, himoya tizimini ishlab chiqish, peskostruyka, qoplamalar qo'llash, sifat nazorati.",
-        "features": ["ISO 12944 / NACE", "Ko'p qatlamli tizimlar", "To'liq ish sikli", "Ijro hujjatlarini rasmiylashtirish"]
+        "features": [
+          "ISO 12944 / NACE",
+          "Ko'p qatlamli tizimlar",
+          "To'liq ish sikli",
+          "Ijro hujjatlarini rasmiylashtirish"
+        ]
       },
       "lining": {
         "title": "Futerovka ishlari",
         "short": "Idishlar, rezervuarlar va quvurlar ichki yuzalarini kimyoviy chidamli materiallar bilan futerovka qilish.",
         "description": "Futerovka ishlari — sanoat uskunalarining ichki yuzalarini maxsus kislotabardosh va kimyoviy chidamli materiallar bilan qoplash.\n\nFuterovka oddiy lak-bo'yoq va korroziyaga qarshi qoplamalar yetarli bo'lmagan joylarda qo'llaniladi: kislota va ishqor saqlash idishlari, kimyoviy moddalar, oshlovchi vannalar, skrubberlar va gaz yo'llarida. Mutaxassislarimiz harorat, konsentratsiya va agressiv muhit turiga qarab optimal futerovka turini tanlaydi.",
-        "features": ["Kislotabardosh g'isht", "Polimer materiallar", "Keramik plitka", "Oshlovchi vannalar va skrubberlar"]
+        "features": [
+          "Kislotabardosh g'isht",
+          "Polimer materiallar",
+          "Keramik plitka",
+          "Oshlovchi vannalar va skrubberlar"
+        ]
       },
       "thermal": {
         "title": "Issiqlik izolyatsiya ishlari",
         "short": "Issiqlik yo'qotishlarini kamaytirish va texnologik rejimni saqlash uchun quvurlar, rezervuarlar va uskunalarni sanoat issiqlik izolyatsiyasi.",
         "description": "Issiqlik izolyatsiya ishlari korxona energiya sarfini kamaytirish, kondensatsiyaning oldini olish, kerakli harorat rejimini saqlash va xodimlarni kuyishdan himoya qilish imkonini beradi.\n\nBiz har qanday ekspluatatsiya sharoitiga mos keladigan faqat sifatli issiqlik izolyatsiya materiallaridan foydalanamiz. Barcha ishlar SNiP va EN ISO standartlariga muvofiq bajariladi.",
-        "features": ["Mineral jun / PU ko'pik", "Alyuminiy qoplama", "Kriogen izolyatsiya", "EN ISO / SNiP standartlari"]
+        "features": [
+          "Mineral jun / PU ko'pik",
+          "Alyuminiy qoplama",
+          "Kriogen izolyatsiya",
+          "EN ISO / SNiP standartlari"
+        ]
       },
       "acid": {
         "title": "Kislotadan kimyoviy himoya",
         "short": "Sulfat, xlorid, nitrat, fosfor kislotalari va ularning aralashmalaridan uskunalar va konstruktsiyalarni maxsus himoya qilish.",
         "description": "Kislotadan kimyoviy himoya ishlari — chuqur kimyo va qoplama texnologiyasi bilimlarini talab qiladigan tor ixtisoslashgan yo'nalish. Kislotalar metalllar va betonni boshqa agressiv muhitlarga nisbatan ancha tezroq yo'q qiladi, shuning uchun material va ish sifatiga qo'yiladigan talablar ayniqsa yuqori.\n\nBiz faqat kislota turiga va konsentratsiyasiga qarab tanlangan sifatli kislotabardosh tarkiblar va futerovka materiallaridan foydalanamiz. Ob'ektlar: kislota idishlari, oshlovchi vannalar, neytralizatorlar, gaz yo'llari, kimyoviy ishlab chiqarish sex pollari.",
-        "features": ["Kislotabardosh qoplamalar", "Kislotabardosh g'isht", "Sulfat / xlorid / nitrat kislotalari", "Oshlovchi vannalar va idishlar"]
+        "features": [
+          "Kislotabardosh qoplamalar",
+          "Kislotabardosh g'isht",
+          "Sulfat / xlorid / nitrat kislotalari",
+          "Oshlovchi vannalar va idishlar"
+        ]
       },
       "waterproofing": {
         "title": "Gidroizolyatsiya ishlari",
         "short": "Beton konstruktsiyalar, poydevorlar, rezervuarlar va sanoat pollarini suv hamda agressiv suyuqliklardan ishonchli himoya qilish.",
         "description": "Gidroizolyatsiya ishlari qurilish va sanoat konstruktsiyalarini suv, grunt suvlari va agressiv suyuqliklar ta'siridan uzoq muddatli himoya qilishni ta'minlaydi. Rezervuarlar, poydevorlar, tomlar, sanoat binolari pollari va er osti inshootlarida qo'llaniladi.\n\nBiz ishonchli germetiklik va uzoq xizmat muddatini ta'minlaydigan faqat sifatli va sinovdan o'tgan materiallardan foydalanamiz. To'liq sikl: konstruktsiyani diagnostika qilish, yuzani tayyorlash, himoya tizimlarini qo'llash, sifat nazorati.",
-        "features": ["Penetratsion gidroizolyatsiya", "Surtma tarkiblar", "In'ektsion gidroizolyatsiya", "Rezervuarlar va pollar"]
+        "features": [
+          "Penetratsion gidroizolyatsiya",
+          "Surtma tarkiblar",
+          "In'ektsion gidroizolyatsiya",
+          "Rezervuarlar va pollar"
+        ]
       }
     }
   },
@@ -94,16 +134,40 @@
     "quote_clients": "Farg'ona NQZ · Kungrad Soda · Navoiazot · Muborak GQZ",
     "why_title": "Nima uchun bizni tanlaydilar",
     "why_items": [
-      {"title": "Tajriba va ekspertiza", "text": "O'zbekistonning eng yirik sanoat ob'ektlarida 20+ yillik loyihalar amalga oshirish"},
-      {"title": "Material sifati", "text": "Faqat sertifikatlangan jahon brendlari materiallaridan foydalanamiz: Jotun, Hempel, International"},
-      {"title": "Kompleks yondashuv", "text": "Loyihalashdan kafolatli ob'ektni topshirishgacha to'liq ish sikli"},
-      {"title": "Xalqaro standartlar", "text": "ISO, NACE, GOST va sifatning xalqaro talablariga muvofiq ishlaymiz"}
+      {
+        "title": "Tajriba va ekspertiza",
+        "text": "O'zbekistonning eng yirik sanoat ob'ektlarida 20+ yillik loyihalar amalga oshirish"
+      },
+      {
+        "title": "Material sifati",
+        "text": "Faqat sertifikatlangan jahon brendlari materiallaridan foydalanamiz: Jotun, Hempel, International"
+      },
+      {
+        "title": "Kompleks yondashuv",
+        "text": "Loyihalashdan kafolatli ob'ektni topshirishgacha to'liq ish sikli"
+      },
+      {
+        "title": "Xalqaro standartlar",
+        "text": "ISO, NACE, GOST va sifatning xalqaro talablariga muvofiq ishlaymiz"
+      }
     ],
     "stats": [
-      {"value": "20+", "label": "yillik tajriba"},
-      {"value": "50+", "label": "yirik loyiha"},
-      {"value": "30+", "label": "doimiy mijoz"},
-      {"value": "5", "label": "xizmat yo'nalishi"}
+      {
+        "value": "20+",
+        "label": "yillik tajriba"
+      },
+      {
+        "value": "50+",
+        "label": "yirik loyiha"
+      },
+      {
+        "value": "30+",
+        "label": "doimiy mijoz"
+      },
+      {
+        "value": "5",
+        "label": "xizmat yo'nalishi"
+      }
     ]
   },
   "projects": {
@@ -115,42 +179,63 @@
         "name": "Farg'ona NQZ",
         "full_name": "«Farg'ona neft qayta ishlash zavodi» AJ",
         "description": "Neft qayta ishlash zavodining rezervuarlari, quvurlari va metallik konstruktsiyalarini korroziyaga qarshi himoya qilish. Amaliy ishlab chiqarish sharoitida peskostruyka va ko'p qatlamli epoksid qoplamalar qo'llash.",
-        "services": ["Korroziyaga qarshi himoya", "Peskostruyka", "Kimyoviy himoya"],
+        "services": [
+          "Korroziyaga qarshi himoya",
+          "Peskostruyka",
+          "Kimyoviy himoya"
+        ],
         "location": "Farg'ona"
       },
       {
         "name": "Kungrad soda zavodi",
         "full_name": "«Kungrad soda zavodi» AJ",
         "description": "Ishqoriy muhit ta'siridan texnologik uskunalarni kompleks kimyoviy himoya qilish. Eskirgan himoya tizimini to'liq almashtirish bilan polimer tarkiblar asosida kimyoviy chidamli qoplamalar qo'llash.",
-        "services": ["Kimyoviy himoya", "Korroziyaga qarshi himoya"],
+        "services": [
+          "Kimyoviy himoya",
+          "Korroziyaga qarshi himoya"
+        ],
         "location": "Nukus / Qoraqalpog'iston"
       },
       {
         "name": "Navoiy azot zavodi",
         "full_name": "AK «Navoiazot»",
         "description": "Ammiak ishlab chiqarish quvurlari va uskunalarini issiqlik izolyatsiyasi va korroziyaga qarshi himoya qilish. Yuqori haroratlar va agressiv kimyoviy muhitlar sharoitida ishlar bajarildi.",
-        "services": ["Issiqlik izolyatsiyasi", "Korroziyaga qarshi himoya", "Kimyoviy himoya"],
+        "services": [
+          "Issiqlik izolyatsiyasi",
+          "Korroziyaga qarshi himoya",
+          "Kimyoviy himoya"
+        ],
         "location": "Navoiy"
       },
       {
         "name": "Muborak GQZ",
         "full_name": "Muborak gaz qayta ishlash zavodi",
         "description": "Gaz qayta ishlash korxonasi ob'ektlarini korroziyaga qarshi himoya va gidroizolyatsiya qilish. Metallik konstruktsiyalar va rezervuar parkiga peskostruyka va himoya qoplamalar qo'llash.",
-        "services": ["Korroziyaga qarshi himoya", "Gidroizolyatsiya", "Peskostruyka"],
+        "services": [
+          "Korroziyaga qarshi himoya",
+          "Gidroizolyatsiya",
+          "Peskostruyka"
+        ],
         "location": "Muborak, Qashqadaryo viloyati"
       },
       {
         "name": "O'zbekneftegaz",
         "full_name": "«O'zbekneftegaz» AJ",
         "description": "Magistral quvurlar va texnologik qurilmalar, shu jumladan neft-gaz infratuzilmasi ob'ektlarini korroziyaga qarshi himoya qilish ishlari.",
-        "services": ["Korroziyaga qarshi himoya", "Peskostruyka"],
+        "services": [
+          "Korroziyaga qarshi himoya",
+          "Peskostruyka"
+        ],
         "location": "O'zbekistonning turli hududlari"
       },
       {
         "name": "Sho'rtanneftegaz",
         "full_name": "«Sho'rtanneftegaz» MChJ",
         "description": "Surxondaryo viloyatidagi gaz-neft qazib olish korxonasining uskunalarini kimyoviy himoya va issiqlik izolyatsiyasi bo'yicha kompleks ishlar.",
-        "services": ["Kimyoviy himoya", "Issiqlik izolyatsiyasi"],
+        "services": [
+          "Kimyoviy himoya",
+          "Issiqlik izolyatsiyasi"
+        ],
         "location": "Surxondaryo viloyati"
       }
     ]
@@ -212,5 +297,60 @@
     "projects_link": "Loyihalar",
     "copyright": "© {year} «Farg'ona Xim Zashita Antikor» MChJ. Barcha huquqlar himoyalangan.",
     "privacy": "Maxfiylik siyosati"
+  },
+  "gallery": {
+    "section_badge": "Bizning ishlarimiz",
+    "section_title": "Ishlar fotogalereyasi",
+    "section_subtitle": "Haqiqiy ob'ektlar, haqiqiy natijalar — ishimiz sifatiga nazar soling",
+    "categories": {
+      "all": "Barchasi",
+      "anticorrosion": "Antikorroziya",
+      "sandblasting": "Peskostruy",
+      "lining": "Futerovka"
+    },
+    "images": [
+      {
+        "src": "/images/antikorroziya1.jpg",
+        "title": "Antikorroziya himoyasi",
+        "category": "anticorrosion",
+        "desc": "Metall konstruksiyalarga antikorroziya qoplama qoʻllash"
+      },
+      {
+        "src": "/images/antikorroziya2.jpg",
+        "title": "Antikorroziya himoyasi",
+        "category": "anticorrosion",
+        "desc": "Rezervuarlarga koʻp qatlamli antikorroziya ishlovi"
+      },
+      {
+        "src": "/images/antikorroziya_do.jpg",
+        "title": "Ishlovdan oldin",
+        "category": "anticorrosion",
+        "desc": "Antikorroziya ishlovidan oldingi holat"
+      },
+      {
+        "src": "/images/antikorroziya_posle.jpg",
+        "title": "Ishlovdan keyin",
+        "category": "anticorrosion",
+        "desc": "Antikorroziya qoplama qoʻllanganidan keyingi natija"
+      },
+      {
+        "src": "/images/futerovka.jpg",
+        "title": "Futerovka ishlari",
+        "category": "lining",
+        "desc": "Sanoat uskunalariga kimyoviy chidamli futerovka"
+      },
+      {
+        "src": "/images/futerovka2.jpg",
+        "title": "Futerovka ishlari",
+        "category": "lining",
+        "desc": "Kislotabardosh plitka va polimer qoplamalar"
+      },
+      {
+        "src": "/images/peskostruynaya.jpg",
+        "title": "Peskostruy ishlovi",
+        "category": "sandblasting",
+        "desc": "Peskostruy usuli bilan yuzani tayyorlash"
+      }
+    ]
   }
 }
