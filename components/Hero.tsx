@@ -3,15 +3,20 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
 import { ArrowRight, ChevronDown, Shield, Star, Wrench } from 'lucide-react';
-import { ConsultationModal } from './ConsultationModal';
+
+const ConsultationModal = dynamic(
+  () => import('./ConsultationModal').then((m) => ({ default: m.ConsultationModal })),
+  { ssr: false }
+);
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 20 },
   visible: (delay = 0) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.7, delay, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] },
   }),
 };
 
@@ -82,23 +87,16 @@ export function Hero() {
               {t('badge')}
             </motion.div>
 
-            {/* Main heading */}
-            <motion.h1
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              custom={0.1}
-              className="mb-2 text-5xl font-bold leading-tight text-slate-900 dark:text-white md:text-6xl lg:text-7xl"
-            >
+            {/* Main heading — no JS animation, LCP-friendly */}
+            <h1 className="mb-2 text-5xl font-bold leading-tight text-slate-900 dark:text-white md:text-6xl lg:text-7xl">
               {t('title')}
-            </motion.h1>
+            </h1>
 
             {/* Subtitle */}
             <motion.p
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              custom={0.2}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
               className="mb-6 text-2xl font-semibold text-orange-500 md:text-3xl"
             >
               {t('subtitle')}
