@@ -7,20 +7,21 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import type { Swiper as SwiperType } from 'swiper';
-import { X, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, ZoomIn, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-type ImageItem = {
+type MediaItem = {
   src: string;
   title: string;
   category: string;
   desc: string;
+  type?: 'image' | 'video';
 };
 
-function ImageCard({ img, onClick, priority = false }: { img: ImageItem; onClick: () => void; priority?: boolean }) {
+function ImageCard({ img, onClick, priority = false }: { img: MediaItem; onClick: () => void; priority?: boolean }) {
   const [loaded, setLoaded] = useState(false);
   return (
     <div
@@ -54,9 +55,38 @@ function ImageCard({ img, onClick, priority = false }: { img: ImageItem; onClick
   );
 }
 
+function VideoCard({ item, onClick }: { item: MediaItem; onClick: () => void }) {
+  return (
+    <div
+      className="group relative cursor-zoom-in overflow-hidden rounded-2xl bg-slate-900"
+      style={{ aspectRatio: '4/3' }}
+      onClick={onClick}
+    >
+      <video
+        src={item.src}
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/70 via-black/10 to-transparent p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <Play className="absolute right-4 top-4 h-5 w-5 text-white" />
+        <h3 className="text-sm font-semibold text-white">{item.title}</h3>
+        <p className="mt-0.5 text-xs text-white/80">{item.desc}</p>
+      </div>
+    </div>
+  );
+}
+
+function MediaCard({ item, onClick, priority }: { item: MediaItem; onClick: () => void; priority?: boolean }) {
+  if (item.type === 'video') return <VideoCard item={item} onClick={onClick} />;
+  return <ImageCard img={item} onClick={onClick} priority={priority} />;
+}
+
 export function Gallery() {
   const t = useTranslations('gallery');
-  const images = t.raw('images') as ImageItem[];
+  const items = t.raw('images') as MediaItem[];
   const categories = t.raw('categories') as Record<string, string>;
 
   const [activeCategory, setActiveCategory] = useState<string>('all');
@@ -64,15 +94,16 @@ export function Gallery() {
   const [direction, setDirection] = useState(0);
   const swiperRef = useRef<SwiperType | null>(null);
 
-  const categoryKeys = ['all', 'anticorrosion', 'sandblasting', 'lining'];
+  const categoryKeys = ['all', 'anticorrosion', 'chemical_protection', 'lining'];
   const filtered =
     activeCategory === 'all'
-      ? images
-      : images.filter((img) => img.category === activeCategory);
+      ? items
+      : items.filter((item) => item.category === activeCategory);
 
-  // Preload all gallery images as soon as component mounts
+  // Preload images (skip videos)
   useEffect(() => {
-    images.forEach(({ src }) => {
+    items.forEach(({ src, type }) => {
+      if (type === 'video') return;
       const img = new window.Image();
       img.src = src;
     });
@@ -89,17 +120,17 @@ export function Gallery() {
     setLightboxIndex((prev) => {
       if (prev === null) return null;
       setDirection(-1);
-      return (prev - 1 + images.length) % images.length;
+      return (prev - 1 + items.length) % items.length;
     });
-  }, [images.length]);
+  }, [items.length]);
 
   const goNext = useCallback(() => {
     setLightboxIndex((prev) => {
       if (prev === null) return null;
       setDirection(1);
-      return (prev + 1) % images.length;
+      return (prev + 1) % items.length;
     });
-  }, [images.length]);
+  }, [items.length]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -203,12 +234,12 @@ export function Gallery() {
                   }}
                   className="gallery-swiper"
                 >
-                  {filtered.map((img, i) => (
-                    <SwiperSlide key={img.src + i}>
-                      <ImageCard
-                        img={img}
+                  {filtered.map((item, i) => (
+                    <SwiperSlide key={item.src + i}>
+                      <MediaCard
+                        item={item}
                         priority={i < 3}
-                        onClick={() => openLightbox(images.indexOf(img))}
+                        onClick={() => openLightbox(items.indexOf(item))}
                       />
                     </SwiperSlide>
                   ))}
@@ -226,7 +257,7 @@ export function Gallery() {
         </motion.div>
       </div>
 
-      {/* ── Custom Lightbox ── */}
+      {/* ── Lightbox ── */}
       <AnimatePresence>
         {lightboxIndex !== null && (
           <motion.div
@@ -247,10 +278,10 @@ export function Gallery() {
 
             {/* Counter */}
             <p className="absolute left-4 top-5 text-xs text-white/50 select-none">
-              {lightboxIndex + 1} / {images.length}
+              {lightboxIndex + 1} / {items.length}
             </p>
 
-            {/* Image row: arrow + image + arrow */}
+            {/* Media row */}
             <div
               className="flex w-full max-w-5xl items-center gap-3"
               onClick={(e) => e.stopPropagation()}
@@ -263,7 +294,7 @@ export function Gallery() {
                 <ChevronLeft className="h-6 w-6" />
               </button>
 
-              {/* Image container */}
+              {/* Media container */}
               <div className="flex flex-1 items-center justify-center overflow-hidden">
                 <AnimatePresence initial={false} custom={direction} mode="wait">
                   <motion.div
@@ -279,16 +310,29 @@ export function Gallery() {
                     exit="exit"
                     className="flex items-center justify-center"
                   >
-                    <Image
-                      src={images[lightboxIndex].src}
-                      alt={images[lightboxIndex].title}
-                      width={1200}
-                      height={900}
-                      className="rounded-2xl object-contain"
-                      style={{ maxHeight: 'min(68vh, 580px)', width: 'auto', height: 'auto' }}
-                      sizes="90vw"
-                      priority
-                    />
+                    {items[lightboxIndex].type === 'video' ? (
+                      <video
+                        src={items[lightboxIndex].src}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        controls
+                        className="rounded-2xl object-contain"
+                        style={{ maxHeight: 'min(68vh, 580px)', width: 'auto', height: 'auto' }}
+                      />
+                    ) : (
+                      <Image
+                        src={items[lightboxIndex].src}
+                        alt={items[lightboxIndex].title}
+                        width={1200}
+                        height={900}
+                        className="rounded-2xl object-contain"
+                        style={{ maxHeight: 'min(68vh, 580px)', width: 'auto', height: 'auto' }}
+                        sizes="90vw"
+                        priority
+                      />
+                    )}
                   </motion.div>
                 </AnimatePresence>
               </div>
@@ -308,10 +352,10 @@ export function Gallery() {
               onClick={(e) => e.stopPropagation()}
             >
               <p className="text-sm font-semibold text-white">
-                {images[lightboxIndex].title}
+                {items[lightboxIndex].title}
               </p>
               <p className="mt-0.5 text-xs text-white/50">
-                {images[lightboxIndex].desc}
+                {items[lightboxIndex].desc}
               </p>
             </div>
 
@@ -320,7 +364,7 @@ export function Gallery() {
               className="mt-4 flex items-center gap-1.5"
               onClick={(e) => e.stopPropagation()}
             >
-              {images.map((_, i) => (
+              {items.map((_, i) => (
                 <button
                   key={i}
                   onClick={() => {

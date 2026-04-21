@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Fergana Xim Zashita Antikor — Anti-Corrosion & Chemical Protection Uzbekistan",
+    "title": "Ximzashita — Chemical Protection & Anti-Corrosion Works Uzbekistan | Fergana Xim Zashita Antikor",
     "description": "Fergana Xim Zashita Antikor LLC — #1 industrial chemical protection & anti-corrosion company in Uzbekistan. Sandblasting, painting, lining, thermal insulation, acid protection. 20+ years. Fergana NQZ, Kungrad, Navoi Azot.",
     "keywords": "fergana xim zashita antikor, ximzashita, anti-corrosion uzbekistan, chemical protection uzbekistan, sandblasting tashkent, sandblasting fergana, industrial coating uzbekistan, corrosion protection fergana, thermal insulation industrial uzbekistan, lining works uzbekistan, acid chemical protection, chemical resistant coatings, anti-corrosion works oil gas uzbekistan, industrial painting uzbekistan, antikor uzbekistan"
   },
@@ -305,19 +305,19 @@
     "categories": {
       "all": "All",
       "anticorrosion": "Anticorrosion",
-      "sandblasting": "Sandblasting",
+      "chemical_protection": "Chemical Protection",
       "lining": "Lining"
     },
     "images": [
       {
-        "src": "/images/antikorroziya1.jpg",
+        "src": "/images/antikorroziya.jpg",
         "title": "Anticorrosion Protection",
         "category": "anticorrosion",
         "desc": "Applying anticorrosion coating on metal structures"
       },
       {
         "src": "/images/antikorroziya2.jpg",
-        "title": "Anticorrosion Protection",
+        "title": "Anticorrosion Treatment",
         "category": "anticorrosion",
         "desc": "Multi-layer anticorrosion treatment of tanks"
       },
@@ -334,22 +334,29 @@
         "desc": "Result after applying anticorrosion coating"
       },
       {
-        "src": "/images/futerovka.jpg",
-        "title": "Lining Works",
-        "category": "lining",
-        "desc": "Chemically resistant lining of industrial equipment"
-      },
-      {
         "src": "/images/futerovka2.jpg",
         "title": "Lining Works",
         "category": "lining",
         "desc": "Acid-resistant tiles and polymer coatings"
       },
       {
-        "src": "/images/peskostruynaya.jpg",
-        "title": "Sandblasting",
-        "category": "sandblasting",
-        "desc": "Surface preparation by sandblasting method"
+        "src": "/images/ximicheskaya_zashita_metolokonstruksi.jpg",
+        "title": "Chemical Protection of Metal Structures",
+        "category": "chemical_protection",
+        "desc": "Applying chemically resistant coatings on metal structures"
+      },
+      {
+        "src": "/images/ximicheskaya_zashita_pola.jpg",
+        "title": "Chemical Floor Protection",
+        "category": "chemical_protection",
+        "desc": "Polymer chemical protective coating for industrial floors"
+      },
+      {
+        "src": "/videos/ximzashitnaya_gidroizolatsiya.mp4",
+        "title": "Chemical Waterproofing",
+        "category": "chemical_protection",
+        "desc": "Application of waterproofing coating",
+        "type": "video"
       }
     ]
   }

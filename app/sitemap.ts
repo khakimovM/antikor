@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://antikor.uz';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.uzximzashita.uz';
 const locales = ['ru', 'uz', 'en'] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {

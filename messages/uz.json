@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Farg'ona Xim Zashita Antikor — Kimyoviy Himoya va Antikorrozion Ishlar O'zbekiston",
+    "title": "Ximzashita — Kimyoviy Himoya va Antikorrozion Ishlar O'zbekiston | Farg'ona Xim Zashita Antikor",
     "description": "Farg'ona Xim Zashita Antikor MChJ — O'zbekistonda kimyoviy himoya va antikorrozion ishlar bo'yicha №1. Peskostruyka, bo'yoq-lak, futlash, issiqlik izolyatsiyasi. 20+ yil tajriba. Farg'ona NQZ, Kungrad, Navoiazot.",
     "keywords": "ximzashita, farg'ona xim zashita antikor, fergana xim zashita antikor, antikor, kimyoviy himoya o'zbekiston, antikorrozion himoya o'zbekiston, peskostruyka toshkent, peskostruyka farg'ona, kimyoviy himoya toshkent, kimyoviy himoya farg'ona, bo'yoq-lak ishlari sanoat, futlash ishlari, issiqlik izolyatsiyasi quvurlar, kislotali kimyoviy himoya, korroziyaga qarshi qoplama, sanoat himoyasi o'zbekiston, zangga qarshi himoya"
   },
@@ -305,19 +305,19 @@
     "categories": {
       "all": "Barchasi",
       "anticorrosion": "Antikorroziya",
-      "sandblasting": "Peskostruy",
+      "chemical_protection": "Kimyoviy himoya",
       "lining": "Futerovka"
     },
     "images": [
       {
-        "src": "/images/antikorroziya1.jpg",
+        "src": "/images/antikorroziya.jpg",
         "title": "Antikorroziya himoyasi",
         "category": "anticorrosion",
         "desc": "Metall konstruksiyalarga antikorroziya qoplama qoʻllash"
       },
       {
         "src": "/images/antikorroziya2.jpg",
-        "title": "Antikorroziya himoyasi",
+        "title": "Antikorroziya ishlovi",
         "category": "anticorrosion",
         "desc": "Rezervuarlarga koʻp qatlamli antikorroziya ishlovi"
       },
@@ -334,22 +334,29 @@
         "desc": "Antikorroziya qoplama qoʻllanganidan keyingi natija"
       },
       {
-        "src": "/images/futerovka.jpg",
-        "title": "Futerovka ishlari",
-        "category": "lining",
-        "desc": "Sanoat uskunalariga kimyoviy chidamli futerovka"
-      },
-      {
         "src": "/images/futerovka2.jpg",
         "title": "Futerovka ishlari",
         "category": "lining",
         "desc": "Kislotabardosh plitka va polimer qoplamalar"
       },
       {
-        "src": "/images/peskostruynaya.jpg",
-        "title": "Peskostruy ishlovi",
-        "category": "sandblasting",
-        "desc": "Peskostruy usuli bilan yuzani tayyorlash"
+        "src": "/images/ximicheskaya_zashita_metolokonstruksi.jpg",
+        "title": "Metall konstruksiyalar kimyoviy himoyasi",
+        "category": "chemical_protection",
+        "desc": "Metall konstruksiyalarga kimyoviy chidamli qoplamalar qoʻllash"
+      },
+      {
+        "src": "/images/ximicheskaya_zashita_pola.jpg",
+        "title": "Pol kimyoviy himoyasi",
+        "category": "chemical_protection",
+        "desc": "Sanoat pollariga polimer kimyoviy himoya qoplama"
+      },
+      {
+        "src": "/videos/ximzashitnaya_gidroizolatsiya.mp4",
+        "title": "Kimyoviy gidroizolyatsiya",
+        "category": "chemical_protection",
+        "desc": "Gidroizolyatsiya qoplama qoʻllash jarayoni",
+        "type": "video"
       }
     ]
   }

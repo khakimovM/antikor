@@ -79,7 +79,7 @@ const FAQ = [
 ];
 
 export function JsonLd({ locale }: Props) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://antikor.uz';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://uzximzashita.uz';
   const pageUrl = `${siteUrl}/${locale}`;
 
   const organization = {
@@ -100,7 +100,7 @@ export function JsonLd({ locale }: Props) {
       'Ведущая компания Узбекистана по антикоррозийной и химической защите промышленных объектов. Химзащита, пескоструйные, лакокрасочные, антикоррозийные, футеровочные и теплоизоляционные работы. Более 20 лет опыта.',
     url: siteUrl,
     telephone: ['+998772146491', '+998972146491', '+998970507525'],
-    email: 'info@antikor.uz',
+    email: 'info@uzximzashita.uz',
     foundingDate: '2003',
     priceRange: '$$',
     currenciesAccepted: 'UZS, USD',

@@ -12,7 +12,7 @@ const PHONES = [
   { number: '+99897 050-75-25', href: 'tel:+998970507525' },
 ];
 
-const EMAIL = 'info@antikor.uz';
+const EMAIL = 'info@uzximzashita.uz';
 
 export function Contact() {
   const t = useTranslations('contact');

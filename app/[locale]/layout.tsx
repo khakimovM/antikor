@@ -21,7 +21,7 @@ export async function generateMetadata({
   params: { locale },
 }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'meta' });
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://antikor.uz';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.uzximzashita.uz';
   const pageUrl = `${siteUrl}/${locale}`;
 
   const ogLocale =
