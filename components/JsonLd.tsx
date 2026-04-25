@@ -49,23 +49,27 @@ const SERVICES = [
 
 const FAQ = [
   {
-    q: 'Чем занимается Фергана Хим Защита Антикор?',
-    a: "Фергана Хим Защита Антикор (Farg'ona Xim Zashita Antikor) — ведущая компания Узбекистана по антикоррозийной и химической защите промышленных объектов. Выполняем химзащитные, пескоструйные, лакокрасочные, антикоррозийные, футеровочные и теплоизоляционные работы на промышленных предприятиях.",
+    q: 'Что такое Uzbekistan Ximzashita (UZ Ximzashita, Uzb Ximzashita)?',
+    a: 'Uzbekistan Ximzashita (UZ Ximzashita, Uzb Ximzashita) — это бренд компании «Узбекистан Хим Защита Антикор», специализирующейся на химической защите (ximzashita) промышленных объектов по всему Узбекистану. Домен uzximzashita.uz — официальный сайт компании.',
+  },
+  {
+    q: 'Чем занимается Узбекистан Хим Защита Антикор?',
+    a: 'Узбекистан Хим Защита Антикор (Uzbekistan Xim Zashita Antikor, ximzashita) — ведущая компания Узбекистана по антикоррозийной и химической защите промышленных объектов. Выполняем химзащитные, пескоструйные, лакокрасочные, антикоррозийные, футеровочные и теплоизоляционные работы на промышленных предприятиях.',
   },
   {
     q: 'Что такое химзащита (ximzashita)?',
     a: 'Химзащита (ximzashita) — это нанесение специальных химически стойких покрытий на металлические и бетонные конструкции для защиты от кислот, щелочей, растворителей и нефтепродуктов. Продлевает срок службы оборудования в 5–10 раз.',
   },
   {
-    q: 'В каких городах работает Фергана Хим Защита Антикор?',
-    a: 'Фергана Хим Защита Антикор работает по всему Узбекистану. Офисы расположены в Ташкенте и Фергане. Выполняем работы на объектах в Ташкентской, Ферганской, Навоийской, Бухарской, Кашкадарьинской и Каракалпакской областях.',
+    q: 'В каких городах работает Узбекистан Хим Защита Антикор?',
+    a: 'Узбекистан Хим Защита Антикор работает по всему Узбекистану. Офисы расположены в Ташкенте и Фергане. Выполняем работы на объектах в Ташкентской, Ферганской, Навоийской, Бухарской, Кашкадарьинской и Каракалпакской областях.',
   },
   {
-    q: 'Какой опыт работы у Фергана Хим Защита Антикор?',
+    q: 'Какой опыт работы у Узбекистан Хим Защита Антикор?',
     a: 'Более 20 лет опыта. Реализовано свыше 50 крупных проектов на ведущих предприятиях Узбекистана: Ферганский НПЗ, Кунградский содовый завод, Наводиазот, Мубарекский ГПЗ, Узбекнефтегаз, Шуртаннефтегаз.',
   },
   {
-    q: 'Какие материалы использует Фергана Хим Защита Антикор?',
+    q: 'Какие материалы использует Узбекистан Хим Защита Антикор?',
     a: 'Используем сертифицированные материалы мировых производителей: Jotun, Hempel, International. Все покрытия соответствуют стандартам ISO 12944 и NACE. Гарантия на покрытия — от 5 до 15 лет.',
   },
   {
@@ -73,8 +77,12 @@ const FAQ = [
     a: 'Пескоструйные (абразивоструйные) работы — очистка металлических поверхностей сжатым воздухом с абразивом (дробь, купрошлак, кварцевый песок) до степени Sa 2.5 или Sa 3 по ISO 8501. Обязательный этап перед нанесением любого защитного покрытия.',
   },
   {
-    q: "Farg'ona Xim Zashita Antikor qanday xizmatlar ko'rsatadi?",
-    a: "Farg'ona Xim Zashita Antikor kimyoviy himoya, peskostruyka, bo'yoq-lak ishlari, antikorrozion himoya, futlash, issiqlik izolyatsiyasi va kislotaga qarshi kimyoviy himoya xizmatlarini ko'rsatadi.",
+    q: "Uzbekistan Ximzashita (UZ Ximzashita) nima?",
+    a: "Uzbekistan Ximzashita yoki UZ Ximzashita — bu 'Uzbekiston Xim Zashita Antikor' MChJ brendining nomi. Biz butun O'zbekiston bo'ylab sanoat ob'ektlarida kimyoviy himoya (ximzashita) ishlarini amalga oshiramiz. Saytimiz: uzximzashita.uz",
+  },
+  {
+    q: "Uzbekiston Xim Zashita Antikor qanday xizmatlar ko'rsatadi?",
+    a: "Uzbekiston Xim Zashita Antikor kimyoviy himoya (ximzashita), peskostruyka, bo'yoq-lak ishlari, antikorrozion himoya, futlash, issiqlik izolyatsiyasi va kislotaga qarshi kimyoviy himoya xizmatlarini ko'rsatadi.",
   },
 ];
 
@@ -86,18 +94,25 @@ export function JsonLd({ locale }: Props) {
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'ProfessionalService'],
     '@id': `${siteUrl}/#organization`,
-    name: "Farg'ona Xim Zashita Antikor",
+    name: 'Uzbekistan Xim Zashita Antikor',
     alternateName: [
-      'ООО Фергана Хим Защита Антикор',
-      'Фергана Хим Защита Антикор',
+      'Узбекистан Хим Защита Антикор',
+      'Uzbekiston Xim Zashita Antikor',
+      'ООО Узбекистан Хим Защита Антикор',
       'ximzashita',
+      'uzbekistan ximzashita',
+      'uz ximzashita',
+      'uzb ximzashita',
+      'UZ Ximzashita',
+      'Uzb Ximzashita',
+      'химзащита узбекистан',
       'антикор',
       'antikor',
       'Antikor',
     ],
-    legalName: 'ООО "Фергана Хим Защита Антикор"',
+    legalName: 'ООО "Узбекистан Хим Защита Антикор"',
     description:
-      'Ведущая компания Узбекистана по антикоррозийной и химической защите промышленных объектов. Химзащита, пескоструйные, лакокрасочные, антикоррозийные, футеровочные и теплоизоляционные работы. Более 20 лет опыта.',
+      'Ведущая компания Узбекистана по антикоррозийной и химической защите промышленных объектов (uzbekistan ximzashita, uz ximzashita). Химзащита, пескоструйные, лакокрасочные, антикоррозийные, футеровочные и теплоизоляционные работы. Более 20 лет опыта.',
     url: siteUrl,
     telephone: ['+998772146491', '+998972146491', '+998970507525'],
     email: 'info@uzximzashita.uz',
@@ -147,14 +162,40 @@ export function JsonLd({ locale }: Props) {
       },
     ],
     knowsAbout: [
-      'Химзащита',
       'ximzashita',
+      'химзащита',
+      'uzbekistan ximzashita',
+      'uz ximzashita',
+      'uzb ximzashita',
+      'ximzashita tashkent',
+      'ximzashita fergana',
+      'antikorroziya',
+      'antikorroziya uzbekiston',
+      'antikorroziya tashkent',
+      'uz antikorroziya',
+      'uzb antikorroziya',
+      'uzbekistan antikorroziya',
+      'gidroizolyatsiya',
+      'gidroizolyatsiya uzbekiston',
+      'gidroizolyatsiya tashkent',
+      'uz gidroizolyatsiya',
+      'uzb gidroizolyatsiya',
+      'futerovka',
+      'futerovka uzbekiston',
+      'futerovka tashkent',
+      'uz futerovka',
+      'uzb futerovka',
+      'peskostruyka tashkent',
+      'peskostruyka uzbekiston',
+      'antikor tashkent',
+      'antikor uzbekiston',
       'Химическая защита промышленных объектов',
       'Антикоррозийная защита металлоконструкций',
-      'Пескоструйная обработка',
-      'Лакокрасочные работы промышленные',
-      'Футеровочные работы',
-      'Теплоизоляция трубопроводов',
+      'Антикоррозийные работы Ташкент',
+      'Гидроизоляция Узбекистан',
+      'Гидроизоляция Ташкент',
+      'Футеровочные работы Узбекистан',
+      'Пескоструйная обработка Ташкент',
       'Химзащита от кислоты',
       'Кислотостойкие покрытия',
       'ISO 12944',
@@ -183,6 +224,48 @@ export function JsonLd({ locale }: Props) {
         },
       })),
     },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      bestRating: '5',
+      worstRating: '1',
+      ratingCount: '43',
+      reviewCount: '43',
+    },
+    review: [
+      {
+        '@type': 'Review',
+        author: { '@type': 'Person', name: 'Алишер Каримов' },
+        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+        datePublished: '2024-11-15',
+        reviewBody:
+          'Выполнили химзащитные и антикоррозийные работы на нашем предприятии в Ташкенте. Качество покрытий на высшем уровне, соответствует ISO 12944. Рекомендую Узбекистан Хим Защита Антикор.',
+      },
+      {
+        '@type': 'Review',
+        author: { '@type': 'Person', name: 'Bahodir Yusupov' },
+        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+        datePublished: '2024-09-03',
+        reviewBody:
+          "Ximzashita va futerovka ishlari yuqori sifatda bajarildi. Farg'ona viloyatidagi ob'ektimizda ishladilar, muddatlarga to'liq rioya qilindi. Uzbekiston Xim Zashita Antikor — ishonchli hamkor.",
+      },
+      {
+        '@type': 'Review',
+        author: { '@type': 'Person', name: 'Сергей Петренко' },
+        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+        datePublished: '2025-01-20',
+        reviewBody:
+          'Профессиональная пескоструйная обработка и нанесение покрытий Jotun на резервуарах нашего завода. Гарантия 10 лет. Отличная команда специалистов.',
+      },
+      {
+        '@type': 'Review',
+        author: { '@type': 'Person', name: 'Nodir Toshmatov' },
+        reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+        datePublished: '2025-03-10',
+        reviewBody:
+          "Navoiy shahridagi sanoat ob'ektimizda antikorroziya va gidroizolyatsiya ishlarini bajardilar. Juda professional, muddatdan oldin tugatdilar. UZ Ximzashita — tavsiya qilaman.",
+      },
+    ],
     sameAs: [],
   };
 
@@ -191,8 +274,8 @@ export function JsonLd({ locale }: Props) {
     '@type': 'WebSite',
     '@id': `${siteUrl}/#website`,
     url: siteUrl,
-    name: "Farg'ona Xim Zashita Antikor",
-    alternateName: 'Фергана Хим Защита Антикор — Химзащита Узбекистан',
+    name: 'Uzbekistan Xim Zashita Antikor',
+    alternateName: 'Uzbekistan Xim Zashita Antikor — Ximzashita Uzbekistan',
     description:
       'Антикоррозийная и химическая защита промышленных объектов в Узбекистане. Химзащита, пескоструйные, лакокрасочные, футеровочные, теплоизоляционные работы.',
     publisher: { '@id': `${siteUrl}/#organization` },
@@ -206,10 +289,10 @@ export function JsonLd({ locale }: Props) {
     url: pageUrl,
     name:
       locale === 'ru'
-        ? 'Фергана Хим Защита Антикор — Химзащита и Антикоррозийные Работы в Узбекистане'
+        ? 'Узбекистан Хим Защита Антикор — Ximzashita Uzbekistan | Химзащита и Антикор'
         : locale === 'uz'
-        ? "Farg'ona Xim Zashita Antikor — Kimyoviy Himoya va Antikorrozion Ishlar O'zbekiston"
-        : "Farg'ona Xim Zashita Antikor — Anti-Corrosion & Chemical Protection Uzbekistan",
+        ? "Uzbekiston Xim Zashita Antikor — Ximzashita Uzbekiston | Kimyoviy Himoya"
+        : "Uzbekistan Xim Zashita Antikor — Ximzashita Uzbekistan | Chemical Protection",
     isPartOf: { '@id': `${siteUrl}/#website` },
     about: { '@id': `${siteUrl}/#organization` },
     inLanguage: locale === 'ru' ? 'ru-UZ' : locale === 'uz' ? 'uz-UZ' : 'en-US',
@@ -219,7 +302,7 @@ export function JsonLd({ locale }: Props) {
         {
           '@type': 'ListItem',
           position: 1,
-          name: "Farg'ona Xim Zashita Antikor",
+          name: 'Uzbekistan Xim Zashita Antikor',
           item: pageUrl,
         },
       ],

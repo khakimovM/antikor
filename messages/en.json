@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Ximzashita — Chemical Protection & Anti-Corrosion Works Uzbekistan | Fergana Xim Zashita Antikor",
-    "description": "Fergana Xim Zashita Antikor LLC — #1 industrial chemical protection & anti-corrosion company in Uzbekistan. Sandblasting, painting, lining, thermal insulation, acid protection. 20+ years. Fergana NQZ, Kungrad, Navoi Azot.",
-    "keywords": "fergana xim zashita antikor, ximzashita, anti-corrosion uzbekistan, chemical protection uzbekistan, sandblasting tashkent, sandblasting fergana, industrial coating uzbekistan, corrosion protection fergana, thermal insulation industrial uzbekistan, lining works uzbekistan, acid chemical protection, chemical resistant coatings, anti-corrosion works oil gas uzbekistan, industrial painting uzbekistan, antikor uzbekistan"
+    "title": "Ximzashita Uzbekistan — Chemical Protection & Anticorrosion | Uzbekistan Xim Zashita Antikor",
+    "description": "Uzbekistan Xim Zashita Antikor LLC (ximzashita, uzbekistan ximzashita, uz ximzashita, uzb ximzashita) — #1 chemical protection company in Uzbekistan. Anti-corrosion, sandblasting, lining, painting, thermal insulation works. 20+ years.",
+    "keywords": "ximzashita, uzbekistan ximzashita, uz ximzashita, uzb ximzashita, ximzashita tashkent, ximzashita fergana, uzbekistan xim zashita antikor, anti-corrosion uzbekistan, antikorroziya uzbekistan, uz antikorroziya, uzb antikorroziya, uzbekistan antikorroziya, waterproofing uzbekistan, gidroizolyatsiya uzbekistan, uz gidroizolyatsiya, uzb gidroizolyatsiya, lining works uzbekistan, futerovka uzbekistan, uz futerovka, uzb futerovka, chemical protection uzbekistan, sandblasting tashkent, uz sandblasting, industrial coating uzbekistan, corrosion protection uzbekistan, thermal insulation industrial uzbekistan, acid chemical protection, chemical resistant coatings, antikor uzbekistan, antikor tashkent"
   },
   "nav": {
     "home": "Home",
@@ -14,9 +14,9 @@
   },
   "hero": {
     "badge": "Over 20 years of industrial experience",
-    "title": "Fergana Xim Zashita Antikor LLC",
+    "title": "Uzbekistan Xim Zashita Antikor LLC",
     "subtitle": "Reliable Protection for Industrial Facilities",
-    "description": "Leading provider of anti-corrosion protection, chemical coatings, sandblasting, and waterproofing in Uzbekistan. Over 50 large-scale projects completed at the country's leading industrial enterprises.",
+    "description": "Leading company in Uzbekistan for ximzashita (chemical protection), antikorroziya, gidroizolyatsiya, futerovka and sandblasting. Operating in Tashkent, Fergana, Navoi and across Uzbekistan. 50+ major projects completed.",
     "cta_primary": "Get Consultation",
     "cta_secondary": "Our Services",
     "stat_years": "years of experience",
@@ -127,7 +127,7 @@
     "section_title": "About the Company",
     "section_subtitle": "Over 20 years of reliable protection for industrial facilities in Uzbekistan",
     "history_title": "History & Mission",
-    "history_p1": "Fergana Xim Zashita Antikor LLC is a leading enterprise in Uzbekistan in the field of industrial anti-corrosion and chemical protection. Over more than 20 years of operation, we have gained invaluable experience implementing complex projects at the country's largest industrial facilities, including oil refineries, chemical enterprises, and energy complexes.",
+    "history_p1": "Uzbekistan Xim Zashita Antikor LLC is a leading enterprise in Uzbekistan in the field of industrial anti-corrosion and chemical protection. Over more than 20 years of operation, we have gained invaluable experience implementing complex projects at the country's largest industrial facilities, including oil refineries, chemical enterprises, and energy complexes. We provide ximzashita, antikorroziya, gidroizolyatsiya, futerovka and sandblasting services in Tashkent, Fergana, Navoi and across Uzbekistan.",
     "history_p2": "Our team consists of highly qualified specialists who have been trained and certified under international programs. We use only proven materials from leading global manufacturers and modern technological equipment. Every project is an opportunity for us to confirm our reputation as a reliable and professional partner.",
     "history_p3": "We work with both state enterprises and private businesses, offering individual solutions for each customer. Our principle: quality, reliability, and long-term partnership.",
     "quote": "Our approach is not simply applying a coating. We develop a long-term asset protection strategy that pays for itself many times over throughout the entire lifecycle of your equipment.",
@@ -190,10 +190,7 @@
         "name": "Kungrad Soda Plant",
         "full_name": "Kungrad Soda Plant JSC",
         "description": "Comprehensive chemical protection of process equipment from alkaline environments. Application of chemically resistant coatings with complete replacement of the outdated protection system.",
-        "services": [
-          "Chemical protection",
-          "Anti-corrosion protection"
-        ],
+        "services": ["Chemical protection", "Anti-corrosion protection"],
         "location": "Nukus / Karakalpakstan"
       },
       {
@@ -222,20 +219,14 @@
         "name": "Uzbekneftegaz",
         "full_name": "Uzbekneftegaz JSC",
         "description": "Anti-corrosion protection works on oil and gas infrastructure facilities, including main pipelines and process units.",
-        "services": [
-          "Anti-corrosion protection",
-          "Sandblasting"
-        ],
+        "services": ["Anti-corrosion protection", "Sandblasting"],
         "location": "Various regions of Uzbekistan"
       },
       {
         "name": "Shurtanneftegaz",
         "full_name": "Shurtanneftegaz LLC",
         "description": "Comprehensive chemical protection and thermal insulation work for a gas and oil production enterprise in Surkhandarya region.",
-        "services": [
-          "Chemical protection",
-          "Thermal insulation"
-        ],
+        "services": ["Chemical protection", "Thermal insulation"],
         "location": "Surkhandarya Region"
       }
     ]
@@ -295,7 +286,7 @@
     "contact_title": "Contact",
     "about_link": "About Company",
     "projects_link": "Projects",
-    "copyright": "© {year} Fergana Xim Zashita Antikor LLC. All rights reserved.",
+    "copyright": "© {year} Uzbekistan Xim Zashita Antikor LLC. All rights reserved.",
     "privacy": "Privacy Policy"
   },
   "gallery": {
@@ -311,51 +302,51 @@
     "images": [
       {
         "src": "/images/antikorroziya.jpg",
-        "title": "Anticorrosion Protection",
+        "title": "Anticorrosion Protection Uzbekistan",
         "category": "anticorrosion",
-        "desc": "Applying anticorrosion coating on metal structures"
+        "desc": "Antikorroziya — anticorrosion coating on metal structures Tashkent"
       },
       {
         "src": "/images/antikorroziya2.jpg",
-        "title": "Anticorrosion Treatment",
+        "title": "Anti-corrosion Works Tashkent",
         "category": "anticorrosion",
-        "desc": "Multi-layer anticorrosion treatment of tanks"
+        "desc": "Multi-layer antikorroziya treatment of tanks — uz antikorroziya"
       },
       {
         "src": "/images/antikorroziya_do.jpg",
-        "title": "Before Treatment",
+        "title": "Before Anticorrosion Treatment",
         "category": "anticorrosion",
-        "desc": "Condition of metal structures before anticorrosion treatment"
+        "desc": "Metal structures before antikorroziya (anti-corrosion) treatment"
       },
       {
         "src": "/images/antikorroziya_posle.jpg",
-        "title": "After Treatment",
+        "title": "After Anticorrosion Protection Uzbekistan",
         "category": "anticorrosion",
-        "desc": "Result after applying anticorrosion coating"
+        "desc": "Result of antikorroziya protection — anti-corrosion works uzbekistan"
       },
       {
         "src": "/images/futerovka2.jpg",
-        "title": "Lining Works",
+        "title": "Lining Works Futerovka Uzbekistan",
         "category": "lining",
-        "desc": "Acid-resistant tiles and polymer coatings"
+        "desc": "Acid-resistant futerovka (lining) — uz futerovka uzbekistan"
       },
       {
         "src": "/images/ximicheskaya_zashita_metolokonstruksi.jpg",
-        "title": "Chemical Protection of Metal Structures",
+        "title": "Ximzashita Chemical Protection Tashkent",
         "category": "chemical_protection",
-        "desc": "Applying chemically resistant coatings on metal structures"
+        "desc": "Ximzashita (chemical protection) on metal structures — uz ximzashita"
       },
       {
         "src": "/images/ximicheskaya_zashita_pola.jpg",
-        "title": "Chemical Floor Protection",
+        "title": "Ximzashita Floor Protection Uzbekistan",
         "category": "chemical_protection",
-        "desc": "Polymer chemical protective coating for industrial floors"
+        "desc": "Ximzashita floor coating — chemical protection uzbekistan"
       },
       {
         "src": "/videos/ximzashitnaya_gidroizolatsiya.mp4",
-        "title": "Chemical Waterproofing",
+        "title": "Gidroizolyatsiya Waterproofing Uzbekistan",
         "category": "chemical_protection",
-        "desc": "Application of waterproofing coating",
+        "desc": "Gidroizolyatsiya (waterproofing) — ximzashita chemical protection",
         "type": "video"
       }
     ]

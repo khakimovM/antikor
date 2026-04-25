@@ -86,7 +86,7 @@ export function Header() {
                 </svg>
               </div>
               <span className="text-lg font-bold text-slate-900 transition-colors dark:text-white">
-                Farg&apos;ona<span className="text-orange-500"> XZA</span>
+                Uzbekiston<span className="text-orange-500"> XZA</span>
               </span>
             </button>
 

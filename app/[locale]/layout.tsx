@@ -32,7 +32,7 @@ export async function generateMetadata({
   return {
     title: {
       default: t('title'),
-      template: `%s | Farg'ona Xim Zashita Antikor`,
+      template: `%s | Uzbekistan Xim Zashita Antikor`,
     },
     description: t('description'),
     keywords: t('keywords'),

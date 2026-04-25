@@ -18,7 +18,9 @@
       "Bash(node -e \"const d=require\\('./messages/ru.json'\\); console.log\\(JSON.stringify\\(d.projects, null, 2\\)\\)\")",
       "Bash(node -e ' *)",
       "Bash(node -e \"const p=require\\('./node_modules/swiper/package.json'\\); console.log\\(JSON.stringify\\(Object.keys\\(p.exports||{}\\).slice\\(0,20\\), null, 2\\)\\)\")",
-      "Bash(node -e \"const p=require\\('./node_modules/swiper/package.json'\\); console.log\\(JSON.stringify\\(Object.keys\\(p.exports||{}\\), null, 2\\)\\)\")"
+      "Bash(node -e \"const p=require\\('./node_modules/swiper/package.json'\\); console.log\\(JSON.stringify\\(Object.keys\\(p.exports||{}\\), null, 2\\)\\)\")",
+      "Bash(sed -n '15,22p' c:/Users/Aziz/Desktop/antikor/messages/uz.json)",
+      "Bash(sed -n '15,22p' c:/Users/Aziz/Desktop/antikor/messages/en.json)"
     ]
   }
 }
