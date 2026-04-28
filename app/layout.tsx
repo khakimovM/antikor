@@ -1,10 +1,12 @@
-import type { Metadata } from 'next';
-import './globals.css';
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.uzximzashita.uz'),
-  applicationName: "Farg'ona Xim Zashita Antikor",
-  referrer: 'origin-when-cross-origin',
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.uzximzashita.uz",
+  ),
+  applicationName: "Uzbekistan Xim Zashita Antikor",
+  referrer: "origin-when-cross-origin",
   robots: {
     index: true,
     follow: true,
@@ -12,14 +14,19 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '',
-    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || '',
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || "",
+  },
+  title: "Uzximzashita.uz - Kimyoviy Himoya",
+  description: "Kimyoviy himoya usullari va turlari",
+  icons: {
+    icon: "/icon.svg",
   },
 };
 

@@ -1,0 +1,20 @@
+<svg 
+  width="128" 
+  height="128" 
+  viewBox="0 0 128 128" 
+  fill="none" 
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path 
+    d="M64 6.4L19.2 25.6V64C19.2 92.288 64 121.6 64 121.6C64 121.6 108.8 92.288 108.8 64V25.6L64 6.4Z" 
+    fill="#1A365D" 
+    stroke="#63B3ED" 
+    stroke-width="3"
+  />
+
+  <line x1="64" y1="51.2" x2="44.8" y2="70.4" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="64" y1="51.2" x2="83.2" y2="70.4" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="44.8" y1="70.4" x2="64" y2="89.6" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="83.2" y1="70.4" x2="64" y2="89.6" stroke="#E2E8F0" stroke-width="4" stroke-linecap="round"/>
+
+  <circle cx="64" cy="51.2" r="8" fill="#E2E8F0"/> <circle cx="44.8" cy="70.4" r="7" fill="#63B3ED"/> <circle cx="83.2" cy="70.4" r="7" fill="#63B3ED"/> <circle cx="64" cy="89.6" r="6" fill="#E2E8F0"/> </svg>

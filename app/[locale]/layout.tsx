@@ -36,9 +36,9 @@ export async function generateMetadata({
     },
     description: t('description'),
     keywords: t('keywords'),
-    authors: [{ name: "Farg'ona Xim Zashita Antikor", url: siteUrl }],
-    creator: "Farg'ona Xim Zashita Antikor",
-    publisher: "Farg'ona Xim Zashita Antikor",
+    authors: [{ name: "Uzbekistan Xim Zashita Antikor", url: siteUrl }],
+    creator: "Uzbekistan Xim Zashita Antikor",
+    publisher: "Uzbekistan Xim Zashita Antikor",
     category: 'Industrial Services',
     robots: {
       index: true,
@@ -64,24 +64,15 @@ export async function generateMetadata({
       title: t('title'),
       description: t('description'),
       url: pageUrl,
-      siteName: "Farg'ona Xim Zashita Antikor",
+      siteName: 'Uzbekistan Xim Zashita Antikor',
       locale: ogLocale,
       alternateLocale: altLocales,
       type: 'website',
-      images: [
-        {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: "Farg'ona Xim Zashita Antikor — Химзащита Узбекистан",
-        },
-      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: [`${siteUrl}/og-image.jpg`],
     },
   };
 }
