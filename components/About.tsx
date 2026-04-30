@@ -1,7 +1,7 @@
 'use client';
 
 import { useMessages, useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
 
 const fadeLeft = {
@@ -26,7 +26,7 @@ export function About() {
     <section id="about" className="section-padding bg-white dark:bg-[#0a0f1e]">
       <div className="container-custom">
         {/* Section header */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -42,11 +42,11 @@ export function About() {
           <p className="mx-auto max-w-2xl text-base text-slate-500 dark:text-slate-400 md:text-lg">
             {t('section_subtitle')}
           </p>
-        </motion.div>
+        </m.div>
 
         <div className="grid items-start gap-16 lg:grid-cols-2">
           {/* Left: History text */}
-          <motion.div
+          <m.div
             variants={fadeLeft}
             initial="hidden"
             whileInView="visible"
@@ -68,7 +68,7 @@ export function About() {
               </h4>
               <ul className="space-y-4">
                 {whyItems.map((item, i) => (
-                  <motion.li
+                  <m.li
                     key={i}
                     initial={{ opacity: 0, x: -16 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -85,14 +85,14 @@ export function About() {
                         — {item.text}
                       </span>
                     </div>
-                  </motion.li>
+                  </m.li>
                 ))}
               </ul>
             </div>
-          </motion.div>
+          </m.div>
 
           {/* Right: Stats + visual */}
-          <motion.div
+          <m.div
             variants={fadeRight}
             initial="hidden"
             whileInView="visible"
@@ -101,7 +101,7 @@ export function About() {
             {/* Stats grid */}
             <div className="grid grid-cols-2 gap-4">
               {stats.map((stat, i) => (
-                <motion.div
+                <m.div
                   key={i}
                   initial={{ opacity: 0, scale: 0.95 }}
                   whileInView={{ opacity: 1, scale: 1 }}
@@ -115,12 +115,12 @@ export function About() {
                   <div className="text-sm font-medium text-slate-500 dark:text-slate-400">
                     {stat.label}
                   </div>
-                </motion.div>
+                </m.div>
               ))}
             </div>
 
             {/* Visual accent block */}
-            <motion.div
+            <m.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -135,7 +135,7 @@ export function About() {
                     <path d="M2 12l10 5 10-5" />
                   </svg>
                 </div>
-                <span className="text-lg font-bold">Farg&apos;ona Xim Zashita Antikor</span>
+                <span className="text-lg font-bold">Uzbekistan Xim Zashita Antikor</span>
               </div>
               <blockquote className="text-sm leading-relaxed text-blue-200">
                 &ldquo;{t('quote')}&rdquo;
@@ -143,8 +143,8 @@ export function About() {
               <div className="mt-4 border-t border-white/10 pt-4 text-xs text-blue-300">
                 {t('quote_clients')}
               </div>
-            </motion.div>
-          </motion.div>
+            </m.div>
+          </m.div>
         </div>
       </div>
     </section>

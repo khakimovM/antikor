@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
 import dynamic from 'next/dynamic';
 import { ArrowRight, ChevronDown, Shield, Star, Wrench } from 'lucide-react';
 
@@ -10,15 +9,6 @@ const ConsultationModal = dynamic(
   () => import('./ConsultationModal').then((m) => ({ default: m.ConsultationModal })),
   { ssr: false }
 );
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 20 },
-  visible: (delay = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] },
-  }),
-};
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -73,54 +63,31 @@ export function Hero() {
         <div className="container-custom relative z-10 py-32 md:py-40">
           <div className="mx-auto max-w-4xl text-center">
             {/* Badge */}
-            <motion.div
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              custom={0}
-              className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50/80 px-4 py-1.5 text-sm text-brand-700 backdrop-blur-sm dark:border-brand-500/30 dark:bg-brand-900/40 dark:text-brand-300"
-            >
+            <div className="hero-anim hero-d0 mb-6 inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50/80 px-4 py-1.5 text-sm text-brand-700 backdrop-blur-sm dark:border-brand-500/30 dark:bg-brand-900/40 dark:text-brand-300">
               <span className="relative flex h-2 w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-orange-400 opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-orange-500" />
               </span>
               {t('badge')}
-            </motion.div>
+            </div>
 
-            {/* Main heading — no JS animation, LCP-friendly */}
+            {/* Main heading — no animation, LCP-friendly */}
             <h1 className="mb-2 text-5xl font-bold leading-tight text-slate-900 dark:text-white md:text-6xl lg:text-7xl">
               {t('title')}
             </h1>
 
             {/* Subtitle */}
-            <motion.p
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
-              className="mb-6 text-2xl font-semibold text-orange-500 md:text-3xl"
-            >
+            <p className="hero-anim hero-d50 mb-6 text-2xl font-semibold text-orange-500 md:text-3xl">
               {t('subtitle')}
-            </motion.p>
+            </p>
 
             {/* Description */}
-            <motion.p
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              custom={0.3}
-              className="mb-10 text-base leading-relaxed text-slate-500 dark:text-slate-400 md:text-lg"
-            >
+            <p className="hero-anim hero-d300 mb-10 text-base leading-relaxed text-slate-500 dark:text-slate-400 md:text-lg">
               {t('description')}
-            </motion.p>
+            </p>
 
             {/* CTA buttons */}
-            <motion.div
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              custom={0.4}
-              className="flex flex-col items-center justify-center gap-3 sm:flex-row"
-            >
+            <div className="hero-anim hero-d400 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <button
                 onClick={() => setModalOpen(true)}
                 className="group inline-flex items-center gap-2 rounded-xl bg-orange-500 px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-orange-500/25 transition-all hover:bg-orange-600 hover:shadow-orange-500/40 active:scale-95"
@@ -134,16 +101,10 @@ export function Hero() {
               >
                 {t('cta_secondary')}
               </button>
-            </motion.div>
+            </div>
 
             {/* Stats row */}
-            <motion.div
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              custom={0.55}
-              className="mt-16 grid grid-cols-3 divide-x divide-slate-200 rounded-2xl border border-slate-200 bg-white/70 backdrop-blur-sm dark:divide-white/10 dark:border-white/10 dark:bg-white/5"
-            >
+            <div className="hero-anim hero-d550 mt-16 grid grid-cols-3 divide-x divide-slate-200 rounded-2xl border border-slate-200 bg-white/70 backdrop-blur-sm dark:divide-white/10 dark:border-white/10 dark:bg-white/5">
               {stats.map((stat, i) => (
                 <div key={i} className="flex flex-col items-center px-4 py-5 md:px-8 md:py-6">
                   <div className="mb-1 text-orange-500 dark:text-orange-400">{stat.icon}</div>
@@ -151,26 +112,20 @@ export function Hero() {
                   <div className="mt-0.5 text-xs text-slate-500 dark:text-slate-400 md:text-sm">{stat.label}</div>
                 </div>
               ))}
-            </motion.div>
+            </div>
           </div>
         </div>
 
         {/* Scroll indicator */}
-        <motion.button
+        <button
           onClick={scrollToServices}
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 text-slate-400/60 transition-colors hover:text-slate-600 dark:text-white/40 dark:hover:text-white/80"
+          className="hero-anim hero-d1200 absolute bottom-10 left-1/2 -translate-x-1/2 text-slate-400/60 transition-colors hover:text-slate-600 dark:text-white/40 dark:hover:text-white/80"
           aria-label="Scroll down"
         >
-          <motion.div
-            animate={{ y: [0, 6, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
-          >
+          <div className="hero-bounce">
             <ChevronDown className="h-6 w-6" />
-          </motion.div>
-        </motion.button>
+          </div>
+        </button>
       </section>
 
       <ConsultationModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />

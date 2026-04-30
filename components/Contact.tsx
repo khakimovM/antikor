@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { Phone, MapPin, Clock, Mail, ArrowRight } from 'lucide-react';
 import { ConsultationModal } from './ConsultationModal';
 
@@ -23,7 +23,7 @@ export function Contact() {
       <section id="contact" className="section-padding bg-white dark:bg-[#0a0f1e]">
         <div className="container-custom">
           {/* Section header */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -39,11 +39,11 @@ export function Contact() {
             <p className="mx-auto max-w-2xl text-base text-slate-500 dark:text-slate-400 md:text-lg">
               {t('section_subtitle')}
             </p>
-          </motion.div>
+          </m.div>
 
           <div className="grid gap-10 lg:grid-cols-3">
             {/* Phones */}
-            <motion.div
+            <m.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -79,10 +79,10 @@ export function Contact() {
                   </a>
                 </div>
               </div>
-            </motion.div>
+            </m.div>
 
             {/* Addresses */}
-            <motion.div
+            <m.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -109,10 +109,10 @@ export function Contact() {
                   <p className="font-medium">{t('address_tashkent')}</p>
                 </div>
               </div>
-            </motion.div>
+            </m.div>
 
             {/* Working hours */}
-            <motion.div
+            <m.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -151,11 +151,11 @@ export function Contact() {
                   </span>
                 </li>
               </ul>
-            </motion.div>
+            </m.div>
           </div>
 
           {/* CTA banner */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -177,7 +177,7 @@ export function Contact() {
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
               </button>
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </section>
 

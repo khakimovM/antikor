@@ -114,6 +114,18 @@ export function JsonLd({ locale }: Props) {
     description:
       'Ведущая компания Узбекистана по антикоррозийной и химической защите промышленных объектов (uzbekistan ximzashita, uz ximzashita). Химзащита, пескоструйные, лакокрасочные, антикоррозийные, футеровочные и теплоизоляционные работы. Более 20 лет опыта.',
     url: siteUrl,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/icon`,
+      width: 128,
+      height: 128,
+    },
+    image: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/icon`,
+      width: 128,
+      height: 128,
+    },
     telephone: ['+998772146491', '+998972146491', '+998970507525'],
     email: 'info@uzximzashita.uz',
     foundingDate: '2003',

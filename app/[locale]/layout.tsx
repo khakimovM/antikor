@@ -5,6 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { ThemeProvider } from 'next-themes';
 import { Inter } from 'next/font/google';
 import { locales } from '@/lib/navigation';
+import { MotionProvider } from '@/components/providers/MotionProvider';
 
 const inter = Inter({
   subsets: ['latin', 'cyrillic'],
@@ -102,7 +103,9 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-            {children}
+            <MotionProvider>
+              {children}
+            </MotionProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

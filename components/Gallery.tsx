@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { m, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
@@ -154,7 +154,7 @@ export function Gallery() {
     <section id="gallery" className="section-padding bg-white dark:bg-slate-950">
       <div className="container-custom">
         {/* Header */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -170,10 +170,10 @@ export function Gallery() {
           <p className="mx-auto max-w-2xl text-base text-slate-500 dark:text-slate-400 md:text-lg">
             {t('section_subtitle')}
           </p>
-        </motion.div>
+        </m.div>
 
         {/* Category filters */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -194,10 +194,10 @@ export function Gallery() {
               {categories[key]}
             </button>
           ))}
-        </motion.div>
+        </m.div>
 
         {/* Swiper + custom nav */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -213,7 +213,7 @@ export function Gallery() {
 
           <div className="min-w-0 flex-1">
             <AnimatePresence mode="wait">
-              <motion.div
+              <m.div
                 key={activeCategory}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -244,7 +244,7 @@ export function Gallery() {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-              </motion.div>
+              </m.div>
             </AnimatePresence>
           </div>
 
@@ -254,13 +254,13 @@ export function Gallery() {
           >
             <ChevronRight className="h-4 w-4 text-slate-600 dark:text-slate-300" />
           </button>
-        </motion.div>
+        </m.div>
       </div>
 
       {/* ── Lightbox ── */}
       <AnimatePresence>
         {lightboxIndex !== null && (
-          <motion.div
+          <m.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -297,7 +297,7 @@ export function Gallery() {
               {/* Media container */}
               <div className="flex flex-1 items-center justify-center overflow-hidden">
                 <AnimatePresence initial={false} custom={direction} mode="wait">
-                  <motion.div
+                  <m.div
                     key={lightboxIndex}
                     custom={direction}
                     variants={{
@@ -333,7 +333,7 @@ export function Gallery() {
                         priority
                       />
                     )}
-                  </motion.div>
+                  </m.div>
                 </AnimatePresence>
               </div>
 
@@ -380,7 +380,7 @@ export function Gallery() {
                 />
               ))}
             </div>
-          </motion.div>
+          </m.div>
         )}
       </AnimatePresence>
     </section>

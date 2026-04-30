@@ -69,6 +69,28 @@
   border-radius: 3px;
 }
 
+/* Hero entrance animations — pure CSS, zero JS */
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes heroBounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(6px); }
+}
+.hero-anim {
+  opacity: 0;
+  animation: heroFadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  will-change: opacity, transform;
+}
+.hero-d0    { animation-delay:    0ms; }
+.hero-d50   { animation-delay:   50ms; }
+.hero-d300  { animation-delay:  300ms; }
+.hero-d400  { animation-delay:  400ms; }
+.hero-d550  { animation-delay:  550ms; }
+.hero-d1200 { animation-delay: 1200ms; }
+.hero-bounce { animation: heroBounce 1.5s ease-in-out infinite; will-change: transform; }
+
 /* Swiper gallery custom styles */
 .gallery-swiper {
   padding-bottom: 44px !important;

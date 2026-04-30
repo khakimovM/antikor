@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { MapPin, Wrench } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -36,7 +36,7 @@ export function Projects() {
     <section id="projects" className="section-padding bg-slate-50 dark:bg-slate-900/50">
       <div className="container-custom">
         {/* Section header */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -52,10 +52,10 @@ export function Projects() {
           <p className="mx-auto max-w-2xl text-base text-slate-500 dark:text-slate-400 md:text-lg">
             {t('section_subtitle')}
           </p>
-        </motion.div>
+        </m.div>
 
         {/* Projects grid */}
-        <motion.div
+        <m.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -63,7 +63,7 @@ export function Projects() {
           className="grid gap-6 md:grid-cols-2 lg:grid-cols-3"
         >
           {items.map((project, i) => (
-            <motion.article
+            <m.article
               key={i}
               variants={cardVariants}
               className="group flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-brand-200 hover:shadow-md dark:border-slate-700 dark:bg-slate-800/60 dark:hover:border-brand-700"
@@ -111,12 +111,12 @@ export function Projects() {
                 <MapPin className="h-3.5 w-3.5" />
                 {project.location}
               </div>
-            </motion.article>
+            </m.article>
           ))}
-        </motion.div>
+        </m.div>
 
         {/* Bottom call-out */}
-        <motion.div
+        <m.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -126,7 +126,7 @@ export function Projects() {
           <p className="text-base font-medium text-brand-800 dark:text-brand-300">
             {t('callout')}
           </p>
-        </motion.div>
+        </m.div>
       </div>
     </section>
   );

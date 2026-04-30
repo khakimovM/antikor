@@ -26,7 +26,12 @@ export const metadata: Metadata = {
   title: "Uzximzashita.uz - Kimyoviy Himoya",
   description: "Kimyoviy himoya usullari va turlari",
   icons: {
-    icon: "/icon.svg",
+    icon: [
+      { url: '/icon', type: 'image/png', sizes: '128x128' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: { url: '/icon', type: 'image/png', sizes: '128x128' },
+    shortcut: '/icon',
   },
 };
 
