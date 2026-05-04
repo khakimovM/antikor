@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   description: "Kimyoviy himoya usullari va turlari",
   icons: {
     icon: [
-      { url: '/icon', type: 'image/png', sizes: '128x128' },
+      { url: '/icon.png', type: 'image/png' },
       { url: '/icon.svg', type: 'image/svg+xml' },
     ],
-    apple: { url: '/icon', type: 'image/png', sizes: '128x128' },
-    shortcut: '/icon',
+    apple: { url: '/icon.png', type: 'image/png' },
+    shortcut: '/icon.png',
   },
 };
 

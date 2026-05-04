@@ -116,13 +116,13 @@ export function JsonLd({ locale }: Props) {
     url: siteUrl,
     logo: {
       '@type': 'ImageObject',
-      url: `${siteUrl}/icon`,
+      url: `${siteUrl}/icon.png`,
       width: 128,
       height: 128,
     },
     image: {
       '@type': 'ImageObject',
-      url: `${siteUrl}/icon`,
+      url: `${siteUrl}/icon.png`,
       width: 128,
       height: 128,
     },
